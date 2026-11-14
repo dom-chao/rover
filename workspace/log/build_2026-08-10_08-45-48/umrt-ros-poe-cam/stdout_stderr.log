@@ -1,0 +1,60 @@
+[35m[1mConsolidate compiler generated dependencies of target republisher_node[0m
+[35m[1mConsolidate compiler generated dependencies of target mobilenet_node[0m
+[ 50%] Built target republisher_node
+[ 66%] [32mBuilding CXX object CMakeFiles/mobilenet_node.dir/src/mobilenet_publisher_node.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/depthai/utility/Serialization.hpp:6[m[K,
+                 from [01m[K/opt/ros/humble/include/depthai/common/Point3f.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/depthai/common/Extrinsics.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/depthai/common/CameraInfo.hpp:4[m[K,
+                 from [01m[K/opt/ros/humble/include/depthai/common/EepromData.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/depthai/device/CalibrationHandler.hpp:11[m[K,
+                 from [01m[K/opt/ros/humble/include/depthai/depthai.hpp:11[m[K,
+                 from [01m[K/ros_ws/workspace/src/umrt-ros-poe-cam/src/mobilenet_publisher_node.cpp:18[m[K:
+/usr/include/nlohmann/json.hpp: In instantiation of ‘[01m[Kconstexpr decltype (declval<const basic_json_t&>().get_impl<ValueType>(nlohmann::detail::priority_tag<4>{})) nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get() const [with ValueTypeCV = std::pair<float, float>; ValueType = std::pair<float, float>; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >; decltype (declval<const basic_json_t&>().get_impl<ValueType>(nlohmann::detail::priority_tag<4>{})) = std::pair<float, float>; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::basic_json_t = nlohmann::basic_json<>][m[K’:
+[01m[K/opt/ros/humble/include/depthai/common/variant.hpp:16:66:[m[K   required from ‘[01m[Kvoid dai::internal::VariantSwitch<N>::operator()(int, const json&, Variant&) const [with Variant = std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > >; long unsigned int N = 1; json = nlohmann::basic_json<>][m[K’
+[01m[K/opt/ros/humble/include/depthai/common/variant.hpp:18:35:[m[K   required from ‘[01m[Kvoid dai::internal::VariantSwitch<N>::operator()(int, const json&, Variant&) const [with Variant = std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > >; long unsigned int N = 2; json = nlohmann::basic_json<>][m[K’
+[01m[K/opt/ros/humble/include/depthai/common/variant.hpp:50:62:[m[K   required from ‘[01m[Kstatic void nlohmann::adl_serializer<std::variant<_Types ...> >::from_json(const json&, std::variant<_Types ...>&) [with Args = {float, std::pair<float, float>, std::vector<float, std::allocator<float> >}; nlohmann::json = nlohmann::basic_json<>][m[K’
+[01m[K/usr/include/nlohmann/json.hpp:1602:45:[m[K   required from ‘[01m[KValueType nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get_impl(nlohmann::detail::priority_tag<0>) const [with ValueType = std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > >; typename std::enable_if<(nlohmann::detail::is_default_constructible<ValueType>::value && nlohmann::detail::has_from_json<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>, ValueType>::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >][m[K’
+[01m[K/usr/include/nlohmann/json.hpp:1745:35:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/nlohmann/json.hpp:1793:45:[m[K   required from ‘[01m[KValueType& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get_to(ValueType&) const [with ValueType = std::optional<std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > > >; typename std::enable_if<((! nlohmann::detail::is_basic_json<BasicJsonType>::value) && nlohmann::detail::has_from_json<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>, ValueType>::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >][m[K’
+[01m[K/opt/ros/humble/include/depthai/capabilities/CapabilityRange.hpp:33:5:[m[K   required from ‘[01m[Kvoid dai::from_json(const json&, dai::CapabilityRange<float>&)[m[K’
+[01m[K/usr/include/nlohmann/detail/conversions/from_json.hpp:480:25:[m[K   required from ‘[01m[Kdecltype (nlohmann::detail::from_json(j, forward<T>(val))) nlohmann::detail::from_json_fn::operator()(const BasicJsonType&, T&&) const [with BasicJsonType = nlohmann::basic_json<>; T = dai::CapabilityRange<float>&; decltype (nlohmann::detail::from_json(j, forward<T>(val))) = void][m[K’
+[01m[K/usr/include/nlohmann/adl_serializer.hpp:25:30:[m[K   required from ‘[01m[Kstatic decltype ((nlohmann::{anonymous}::from_json(forward<BasicJsonType>(j), val), void())) nlohmann::adl_serializer<T, SFINAE>::from_json(BasicJsonType&&, TargetType&) [with BasicJsonType = const nlohmann::basic_json<>&; TargetType = dai::CapabilityRange<float>; ValueType = dai::CapabilityRange<float>; <template-parameter-1-2> = void; decltype ((nlohmann::{anonymous}::from_json(forward<BasicJsonType>(j), val), void())) = void][m[K’
+[01m[K/usr/include/nlohmann/json.hpp:1793:45:[m[K   required from ‘[01m[KValueType& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get_to(ValueType&) const [with ValueType = dai::CapabilityRange<float>; typename std::enable_if<((! nlohmann::detail::is_basic_json<BasicJsonType>::value) && nlohmann::detail::has_from_json<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>, ValueType>::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >][m[K’
+[01m[K/opt/ros/humble/include/depthai/capabilities/ImgFrameCapability.hpp:55:5:[m[K   required from here
+[01m[K/usr/include/nlohmann/json.hpp:1736:10:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+ 1736 |     auto [01;36m[Kget[m[K() const noexcept(
+      |          [01;36m[K^~~[m[K
+[ 83%] [32m[1mLinking CXX executable mobilenet_node[0m
+[100%] Built target mobilenet_node
+-- Install configuration: ""
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/right.yaml
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/color.yaml
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/left.yaml
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/resources
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/resources/mobilenet-ssd_openvino_2021.2_6shave.blob
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/transport.launch.py
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/example.launch.py
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/example.yaml
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/mobile_publisher.launch.py
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/lib/umrt-ros-poe-cam/republisher_node
+-- Installing: /ros_ws/workspace/install/umrt-ros-poe-cam/lib/umrt-ros-poe-cam/mobilenet_node
+-- Set runtime path of "/ros_ws/workspace/install/umrt-ros-poe-cam/lib/umrt-ros-poe-cam/mobilenet_node" to ""
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/ament_index/resource_index/package_run_dependencies/umrt-ros-poe-cam
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/ament_index/resource_index/parent_prefix_path/umrt-ros-poe-cam
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/ament_prefix_path.sh
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/ament_prefix_path.dsv
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/path.sh
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/path.dsv
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.bash
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.sh
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.zsh
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.dsv
+-- Installing: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.dsv
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/ament_index/resource_index/packages/umrt-ros-poe-cam
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/cmake/umrt-ros-poe-camConfig.cmake
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/cmake/umrt-ros-poe-camConfig-version.cmake
+-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.xml

@@ -1,0 +1,71 @@
+[0.046s] Invoking command in '/ros_ws/build/umrt-localization-ros': /usr/bin/cmake /ros_ws/src/umrt-localization-ros -DCMAKE_BUILD_TYPE=Debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/umrt-localization-ros
+[0.228s] -- The C compiler identification is GNU 11.4.0
+[0.342s] -- The CXX compiler identification is GNU 11.4.0
+[0.358s] -- Detecting C compiler ABI info
+[0.499s] -- Detecting C compiler ABI info - done
+[0.510s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.511s] -- Detecting C compile features
+[0.511s] -- Detecting C compile features - done
+[0.518s] -- Detecting CXX compiler ABI info
+[0.674s] -- Detecting CXX compiler ABI info - done
+[0.697s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.698s] -- Detecting CXX compile features
+[0.699s] -- Detecting CXX compile features - done
+[0.707s] -- Found ublox_ubx_msgs: 0.7.5 (/opt/ros/humble/share/ublox_ubx_msgs/cmake)
+[0.990s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.136s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.300s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.316s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.337s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.493s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.580s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.586s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.783s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.837s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.919s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.942s] -- Looking for pthread.h
+[2.091s] -- Looking for pthread.h - found
+[2.091s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.245s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.248s] -- Found Threads: TRUE  
+[2.336s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.382s] -- Found ublox_dgnss: 0.7.5 (/opt/ros/humble/share/ublox_dgnss/cmake)
+[2.386s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.604s] -- Configuring done
+[2.632s] -- Generating done
+[2.643s] -- Build files have been written to: /ros_ws/build/umrt-localization-ros
+[2.669s] Invoked command in '/ros_ws/build/umrt-localization-ros' returned '0': /usr/bin/cmake /ros_ws/src/umrt-localization-ros -DCMAKE_BUILD_TYPE=Debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/umrt-localization-ros
+[2.673s] Invoking command in '/ros_ws/build/umrt-localization-ros': /usr/bin/cmake --build /ros_ws/build/umrt-localization-ros -- -j8 -l8
+[2.776s] [ 33%] [32mBuilding CXX object CMakeFiles/gps_node.dir/src/heading_node.cpp.o[0m
+[2.780s] [ 66%] [32mBuilding CXX object CMakeFiles/gps_node.dir/src/heading.cpp.o[0m
+[38.543s] [100%] [32m[1mLinking CXX executable gps_node[0m
+[39.688s] [100%] Built target gps_node
+[39.712s] Invoked command in '/ros_ws/build/umrt-localization-ros' returned '0': /usr/bin/cmake --build /ros_ws/build/umrt-localization-ros -- -j8 -l8
+[39.716s] Invoking command in '/ros_ws/build/umrt-localization-ros': /usr/bin/cmake --install /ros_ws/build/umrt-localization-ros
+[39.731s] -- Install configuration: "Debug"
+[39.731s] -- Execute custom install script
+[39.732s] -- Symlinking: /ros_ws/install/umrt-localization-ros/lib/umrt-localization-ros/gps_node
+[39.754s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/example.yaml
+[39.773s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/gps.launch.py
+[39.793s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/oldgps.launch.py
+[39.811s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/ublox.launch.py
+[39.830s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/ublox_mb+r_base.launch.py
+[39.849s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/ublox_mb+r_rover.launch.py
+[39.868s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/ament_index/resource_index/package_run_dependencies/umrt-localization-ros
+[39.887s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/ament_index/resource_index/parent_prefix_path/umrt-localization-ros
+[39.905s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/environment/ament_prefix_path.sh
+[39.923s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/environment/ament_prefix_path.dsv
+[39.941s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/environment/path.sh
+[39.961s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/environment/path.dsv
+[39.980s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/local_setup.bash
+[39.998s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/local_setup.sh
+[40.015s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/local_setup.zsh
+[40.033s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/local_setup.dsv
+[40.051s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.dsv
+[40.069s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/ament_index/resource_index/packages/umrt-localization-ros
+[40.086s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/cmake/umrt-localization-rosConfig.cmake
+[40.103s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/cmake/umrt-localization-rosConfig-version.cmake
+[40.120s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.xml
+[40.144s] Invoked command in '/ros_ws/build/umrt-localization-ros' returned '0': /usr/bin/cmake --install /ros_ws/build/umrt-localization-ros

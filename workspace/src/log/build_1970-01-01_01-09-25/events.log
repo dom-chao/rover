@@ -1,0 +1,581 @@
+[0.000000] (-) TimerEvent: {}
+[0.000842] (-) JobUnselected: {'identifier': 'umrt-arm-ros-firmware'}
+[0.001074] (-) JobUnselected: {'identifier': 'umrt-localization-ros'}
+[0.001368] (-) JobUnselected: {'identifier': 'umrt-serial-cam-ros'}
+[0.001466] (umrt-ros-poe-cam) JobQueued: {'identifier': 'umrt-ros-poe-cam', 'dependencies': OrderedDict()}
+[0.001550] (umrt-ros-poe-cam) JobStarted: {'identifier': 'umrt-ros-poe-cam'}
+[0.018803] (umrt-ros-poe-cam) JobProgress: {'identifier': 'umrt-ros-poe-cam', 'progress': 'cmake'}
+[0.020183] (umrt-ros-poe-cam) JobProgress: {'identifier': 'umrt-ros-poe-cam', 'progress': 'build'}
+[0.021485] (umrt-ros-poe-cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros_ws/src/build/umrt-ros-poe-cam', '--', '-j8', '-l8'], 'cwd': '/ros_ws/src/build/umrt-ros-poe-cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARMCAM0', ''), ('ARMCAM1', ''), ('HOSTNAME', '367a5f13c85f'), ('CAM1', ''), ('CAM2', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros_ws'), ('ROUTE_POLICY', 'drop-default'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros_ws/src/install'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROVERCAM0', ''), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROVERCAM1', ''), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/ros_ws/src/install/umrt-ros-poe-cam:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/ros_ws/src/build/umrt-ros-poe-cam'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_ws/src/install/umrt-ros-poe-cam:/opt/ros/humble')]), 'shell': False}
+[0.099366] (-) TimerEvent: {}
+[0.105634] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199509] (-) TimerEvent: {}
+[0.300060] (-) TimerEvent: {}
+[0.350773] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- ------------------------------------------\n'}
+[0.351416] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Depthai Bridge is being built using AMENT.\n'}
+[0.351827] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- ------------------------------------------\n'}
+[0.352122] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400145] (-) TimerEvent: {}
+[0.422849] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.427690] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.439125] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.456747] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.480020] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500225] (-) TimerEvent: {}
+[0.541250] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.543834] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600325] (-) TimerEvent: {}
+[0.700768] (-) TimerEvent: {}
+[0.728629] (umrt-ros-poe-cam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800898] (-) TimerEvent: {}
+[0.827124] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.857058] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.13 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[0.901001] (-) TimerEvent: {}
+[0.923927] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.966961] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found depthai_ros_msgs_v3: 3.3.0 (/opt/ros/humble/share/depthai_ros_msgs_v3/cmake)\n'}
+[1.001124] (-) TimerEvent: {}
+[1.032669] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found depthai_bridge_v3: 3.3.0 (/opt/ros/humble/share/depthai_bridge_v3/cmake)\n'}
+[1.101248] (-) TimerEvent: {}
+[1.201689] (-) TimerEvent: {}
+[1.293965] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.296395] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.301771] (-) TimerEvent: {}
+[1.326608] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found foxglove_msgs: 3.4.3 (/opt/ros/humble/share/foxglove_msgs/cmake)\n'}
+[1.355307] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Found foxglove_compressed_video_transport: 3.0.3 (/opt/ros/humble/share/foxglove_compressed_video_transport/cmake)\n'}
+[1.401916] (-) TimerEvent: {}
+[1.502394] (-) TimerEvent: {}
+[1.530468] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.587849] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Generating done\n'}
+[1.602515] (-) TimerEvent: {}
+[1.605839] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Build files have been written to: /ros_ws/src/build/umrt-ros-poe-cam\n'}
+[1.666863] (umrt-ros-poe-cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target republisher_node\x1b[0m\n'}
+[1.668062] (umrt-ros-poe-cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mobilenet_node\x1b[0m\n'}
+[1.686120] (umrt-ros-poe-cam) StderrLine: {'line': b"gmake[2]: Warning: File '/ros_ws/src/umrt-ros-poe-cam/src/foxglove_republisher_node.cpp' has modification time 1785548421 s in the future\n"}
+[1.700238] (umrt-ros-poe-cam) StderrLine: {'line': b"gmake[2]: Warning: File '/ros_ws/src/umrt-ros-poe-cam/src/mobilenet_publisher.cpp' has modification time 1785548421 s in the future\n"}
+[1.702588] (-) TimerEvent: {}
+[1.705125] (umrt-ros-poe-cam) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/republisher_node.dir/src/foxglove_republisher.cpp.o\x1b[0m\n'}
+[1.705409] (umrt-ros-poe-cam) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/republisher_node.dir/src/foxglove_republisher_node.cpp.o\x1b[0m\n'}
+[1.724438] (umrt-ros-poe-cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mobilenet_node.dir/src/mobilenet_publisher.cpp.o\x1b[0m\n'}
+[1.725020] (umrt-ros-poe-cam) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mobilenet_node.dir/src/mobilenet_publisher_node.cpp.o\x1b[0m\n'}
+[1.802763] (-) TimerEvent: {}
+[1.903400] (-) TimerEvent: {}
+[2.004122] (-) TimerEvent: {}
+[2.104873] (-) TimerEvent: {}
+[2.205599] (-) TimerEvent: {}
+[2.306358] (-) TimerEvent: {}
+[2.407120] (-) TimerEvent: {}
+[2.508420] (-) TimerEvent: {}
+[2.609185] (-) TimerEvent: {}
+[2.709887] (-) TimerEvent: {}
+[2.810572] (-) TimerEvent: {}
+[2.911257] (-) TimerEvent: {}
+[3.012003] (-) TimerEvent: {}
+[3.112722] (-) TimerEvent: {}
+[3.213513] (-) TimerEvent: {}
+[3.314293] (-) TimerEvent: {}
+[3.415111] (-) TimerEvent: {}
+[3.515874] (-) TimerEvent: {}
+[3.616599] (-) TimerEvent: {}
+[3.717327] (-) TimerEvent: {}
+[3.818046] (-) TimerEvent: {}
+[3.919040] (-) TimerEvent: {}
+[4.019779] (-) TimerEvent: {}
+[4.120534] (-) TimerEvent: {}
+[4.221279] (-) TimerEvent: {}
+[4.321994] (-) TimerEvent: {}
+[4.423400] (-) TimerEvent: {}
+[4.524147] (-) TimerEvent: {}
+[4.624895] (-) TimerEvent: {}
+[4.725616] (-) TimerEvent: {}
+[4.826296] (-) TimerEvent: {}
+[4.926979] (-) TimerEvent: {}
+[5.027671] (-) TimerEvent: {}
+[5.128445] (-) TimerEvent: {}
+[5.229162] (-) TimerEvent: {}
+[5.329895] (-) TimerEvent: {}
+[5.430667] (-) TimerEvent: {}
+[5.531389] (-) TimerEvent: {}
+[5.632148] (-) TimerEvent: {}
+[5.732894] (-) TimerEvent: {}
+[5.833623] (-) TimerEvent: {}
+[5.934373] (-) TimerEvent: {}
+[6.035137] (-) TimerEvent: {}
+[6.135958] (-) TimerEvent: {}
+[6.236731] (-) TimerEvent: {}
+[6.337461] (-) TimerEvent: {}
+[6.438285] (-) TimerEvent: {}
+[6.538959] (-) TimerEvent: {}
+[6.639656] (-) TimerEvent: {}
+[6.740398] (-) TimerEvent: {}
+[6.841107] (-) TimerEvent: {}
+[6.941807] (-) TimerEvent: {}
+[7.042523] (-) TimerEvent: {}
+[7.143248] (-) TimerEvent: {}
+[7.243987] (-) TimerEvent: {}
+[7.344766] (-) TimerEvent: {}
+[7.445489] (-) TimerEvent: {}
+[7.546204] (-) TimerEvent: {}
+[7.646923] (-) TimerEvent: {}
+[7.747610] (-) TimerEvent: {}
+[7.849017] (-) TimerEvent: {}
+[7.949774] (-) TimerEvent: {}
+[8.050503] (-) TimerEvent: {}
+[8.151234] (-) TimerEvent: {}
+[8.251981] (-) TimerEvent: {}
+[8.352732] (-) TimerEvent: {}
+[8.453457] (-) TimerEvent: {}
+[8.554165] (-) TimerEvent: {}
+[8.654949] (-) TimerEvent: {}
+[8.755984] (-) TimerEvent: {}
+[8.857004] (-) TimerEvent: {}
+[8.957716] (-) TimerEvent: {}
+[9.058441] (-) TimerEvent: {}
+[9.159234] (-) TimerEvent: {}
+[9.259949] (-) TimerEvent: {}
+[9.330379] (umrt-ros-poe-cam) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable republisher_node\x1b[0m\n'}
+[9.360128] (-) TimerEvent: {}
+[9.460974] (-) TimerEvent: {}
+[9.561833] (-) TimerEvent: {}
+[9.653908] (umrt-ros-poe-cam) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[9.661906] (-) TimerEvent: {}
+[9.669233] (umrt-ros-poe-cam) StdoutLine: {'line': b'[ 83%] Built target republisher_node\n'}
+[9.762089] (-) TimerEvent: {}
+[9.862816] (-) TimerEvent: {}
+[9.963679] (-) TimerEvent: {}
+[10.064473] (-) TimerEvent: {}
+[10.165251] (-) TimerEvent: {}
+[10.265935] (-) TimerEvent: {}
+[10.366638] (-) TimerEvent: {}
+[10.467324] (-) TimerEvent: {}
+[10.568026] (-) TimerEvent: {}
+[10.668749] (-) TimerEvent: {}
+[10.769441] (-) TimerEvent: {}
+[10.870239] (-) TimerEvent: {}
+[10.970916] (-) TimerEvent: {}
+[11.071621] (-) TimerEvent: {}
+[11.172337] (-) TimerEvent: {}
+[11.273037] (-) TimerEvent: {}
+[11.373722] (-) TimerEvent: {}
+[11.474456] (-) TimerEvent: {}
+[11.575195] (-) TimerEvent: {}
+[11.675922] (-) TimerEvent: {}
+[11.776627] (-) TimerEvent: {}
+[11.877331] (-) TimerEvent: {}
+[11.978023] (-) TimerEvent: {}
+[12.078734] (-) TimerEvent: {}
+[12.179474] (-) TimerEvent: {}
+[12.280196] (-) TimerEvent: {}
+[12.380897] (-) TimerEvent: {}
+[12.481585] (-) TimerEvent: {}
+[12.582274] (-) TimerEvent: {}
+[12.682984] (-) TimerEvent: {}
+[12.783699] (-) TimerEvent: {}
+[12.884437] (-) TimerEvent: {}
+[12.985122] (-) TimerEvent: {}
+[13.085811] (-) TimerEvent: {}
+[13.186490] (-) TimerEvent: {}
+[13.287183] (-) TimerEvent: {}
+[13.387874] (-) TimerEvent: {}
+[13.488588] (-) TimerEvent: {}
+[13.589305] (-) TimerEvent: {}
+[13.690003] (-) TimerEvent: {}
+[13.790726] (-) TimerEvent: {}
+[13.891502] (-) TimerEvent: {}
+[13.992314] (-) TimerEvent: {}
+[14.093004] (-) TimerEvent: {}
+[14.193698] (-) TimerEvent: {}
+[14.294395] (-) TimerEvent: {}
+[14.395096] (-) TimerEvent: {}
+[14.495857] (-) TimerEvent: {}
+[14.596586] (-) TimerEvent: {}
+[14.697295] (-) TimerEvent: {}
+[14.797974] (-) TimerEvent: {}
+[14.898666] (-) TimerEvent: {}
+[14.999369] (-) TimerEvent: {}
+[15.100076] (-) TimerEvent: {}
+[15.200802] (-) TimerEvent: {}
+[15.301494] (-) TimerEvent: {}
+[15.402183] (-) TimerEvent: {}
+[15.502870] (-) TimerEvent: {}
+[15.603559] (-) TimerEvent: {}
+[15.704233] (-) TimerEvent: {}
+[15.804917] (-) TimerEvent: {}
+[15.905588] (-) TimerEvent: {}
+[16.006318] (-) TimerEvent: {}
+[16.107046] (-) TimerEvent: {}
+[16.207746] (-) TimerEvent: {}
+[16.308448] (-) TimerEvent: {}
+[16.409125] (-) TimerEvent: {}
+[16.509817] (-) TimerEvent: {}
+[16.610494] (-) TimerEvent: {}
+[16.711199] (-) TimerEvent: {}
+[16.811898] (-) TimerEvent: {}
+[16.912602] (-) TimerEvent: {}
+[17.013299] (-) TimerEvent: {}
+[17.114008] (-) TimerEvent: {}
+[17.214718] (-) TimerEvent: {}
+[17.315421] (-) TimerEvent: {}
+[17.416131] (-) TimerEvent: {}
+[17.516814] (-) TimerEvent: {}
+[17.617495] (-) TimerEvent: {}
+[17.718179] (-) TimerEvent: {}
+[17.818867] (-) TimerEvent: {}
+[17.919547] (-) TimerEvent: {}
+[18.020220] (-) TimerEvent: {}
+[18.120902] (-) TimerEvent: {}
+[18.221628] (-) TimerEvent: {}
+[18.322339] (-) TimerEvent: {}
+[18.423062] (-) TimerEvent: {}
+[18.523752] (-) TimerEvent: {}
+[18.624498] (-) TimerEvent: {}
+[18.725289] (-) TimerEvent: {}
+[18.825994] (-) TimerEvent: {}
+[18.926695] (-) TimerEvent: {}
+[19.027418] (-) TimerEvent: {}
+[19.128186] (-) TimerEvent: {}
+[19.228870] (-) TimerEvent: {}
+[19.329578] (-) TimerEvent: {}
+[19.430261] (-) TimerEvent: {}
+[19.531021] (-) TimerEvent: {}
+[19.631725] (-) TimerEvent: {}
+[19.732469] (-) TimerEvent: {}
+[19.833177] (-) TimerEvent: {}
+[19.933861] (-) TimerEvent: {}
+[20.034582] (-) TimerEvent: {}
+[20.135286] (-) TimerEvent: {}
+[20.235966] (-) TimerEvent: {}
+[20.336692] (-) TimerEvent: {}
+[20.437389] (-) TimerEvent: {}
+[20.538078] (-) TimerEvent: {}
+[20.638808] (-) TimerEvent: {}
+[20.739520] (-) TimerEvent: {}
+[20.840198] (-) TimerEvent: {}
+[20.940872] (-) TimerEvent: {}
+[21.041551] (-) TimerEvent: {}
+[21.142229] (-) TimerEvent: {}
+[21.242892] (-) TimerEvent: {}
+[21.343539] (-) TimerEvent: {}
+[21.444214] (-) TimerEvent: {}
+[21.544901] (-) TimerEvent: {}
+[21.645589] (-) TimerEvent: {}
+[21.746241] (-) TimerEvent: {}
+[21.846935] (-) TimerEvent: {}
+[21.947614] (-) TimerEvent: {}
+[22.048299] (-) TimerEvent: {}
+[22.148960] (-) TimerEvent: {}
+[22.249635] (-) TimerEvent: {}
+[22.350304] (-) TimerEvent: {}
+[22.450992] (-) TimerEvent: {}
+[22.551703] (-) TimerEvent: {}
+[22.652622] (-) TimerEvent: {}
+[22.753343] (-) TimerEvent: {}
+[22.854023] (-) TimerEvent: {}
+[22.954947] (-) TimerEvent: {}
+[23.055912] (-) TimerEvent: {}
+[23.156641] (-) TimerEvent: {}
+[23.257585] (-) TimerEvent: {}
+[23.358312] (-) TimerEvent: {}
+[23.459011] (-) TimerEvent: {}
+[23.559683] (-) TimerEvent: {}
+[23.660369] (-) TimerEvent: {}
+[23.761034] (-) TimerEvent: {}
+[23.861719] (-) TimerEvent: {}
+[23.962385] (-) TimerEvent: {}
+[24.063048] (-) TimerEvent: {}
+[24.163725] (-) TimerEvent: {}
+[24.264414] (-) TimerEvent: {}
+[24.365078] (-) TimerEvent: {}
+[24.465739] (-) TimerEvent: {}
+[24.566415] (-) TimerEvent: {}
+[24.667095] (-) TimerEvent: {}
+[24.767778] (-) TimerEvent: {}
+[24.868486] (-) TimerEvent: {}
+[24.969159] (-) TimerEvent: {}
+[25.069885] (-) TimerEvent: {}
+[25.170551] (-) TimerEvent: {}
+[25.271216] (-) TimerEvent: {}
+[25.371908] (-) TimerEvent: {}
+[25.472607] (-) TimerEvent: {}
+[25.573284] (-) TimerEvent: {}
+[25.673955] (-) TimerEvent: {}
+[25.774627] (-) TimerEvent: {}
+[25.875301] (-) TimerEvent: {}
+[25.975976] (-) TimerEvent: {}
+[26.076656] (-) TimerEvent: {}
+[26.177439] (-) TimerEvent: {}
+[26.278111] (-) TimerEvent: {}
+[26.378798] (-) TimerEvent: {}
+[26.479466] (-) TimerEvent: {}
+[26.580156] (-) TimerEvent: {}
+[26.680830] (-) TimerEvent: {}
+[26.776096] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-ros-poe-cam/src/mobilenet_publisher_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MobileNetPublisherNode::SetupCameraPipeline(dai::Pipeline&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.776609] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-ros-poe-cam/src/mobilenet_publisher_node.cpp:62:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class dai::node::Camera\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass dai::node::Camera\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KsetFps\x1b[m\x1b[K\xe2\x80\x99\n'}
+[26.776784] (umrt-ros-poe-cam) StderrLine: {'line': b'   62 |     color_cam_->\x1b[01;31m\x1b[KsetFps\x1b[m\x1b[K(CAMERA_FPS);\n'}
+[26.776925] (umrt-ros-poe-cam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[26.780915] (-) TimerEvent: {}
+[26.881705] (-) TimerEvent: {}
+[26.982433] (-) TimerEvent: {}
+[27.083397] (-) TimerEvent: {}
+[27.184348] (-) TimerEvent: {}
+[27.285064] (-) TimerEvent: {}
+[27.385757] (-) TimerEvent: {}
+[27.486430] (-) TimerEvent: {}
+[27.587125] (-) TimerEvent: {}
+[27.687798] (-) TimerEvent: {}
+[27.788503] (-) TimerEvent: {}
+[27.889156] (-) TimerEvent: {}
+[27.989826] (-) TimerEvent: {}
+[28.090497] (-) TimerEvent: {}
+[28.191162] (-) TimerEvent: {}
+[28.291836] (-) TimerEvent: {}
+[28.392544] (-) TimerEvent: {}
+[28.493228] (-) TimerEvent: {}
+[28.593904] (-) TimerEvent: {}
+[28.694578] (-) TimerEvent: {}
+[28.795252] (-) TimerEvent: {}
+[28.895944] (-) TimerEvent: {}
+[28.996665] (-) TimerEvent: {}
+[29.097386] (-) TimerEvent: {}
+[29.198104] (-) TimerEvent: {}
+[29.298826] (-) TimerEvent: {}
+[29.399546] (-) TimerEvent: {}
+[29.500247] (-) TimerEvent: {}
+[29.600936] (-) TimerEvent: {}
+[29.701744] (-) TimerEvent: {}
+[29.802412] (-) TimerEvent: {}
+[29.903339] (-) TimerEvent: {}
+[30.004297] (-) TimerEvent: {}
+[30.105255] (-) TimerEvent: {}
+[30.206173] (-) TimerEvent: {}
+[30.307148] (-) TimerEvent: {}
+[30.407877] (-) TimerEvent: {}
+[30.508615] (-) TimerEvent: {}
+[30.609559] (-) TimerEvent: {}
+[30.710265] (-) TimerEvent: {}
+[30.810961] (-) TimerEvent: {}
+[30.911668] (-) TimerEvent: {}
+[31.012369] (-) TimerEvent: {}
+[31.113065] (-) TimerEvent: {}
+[31.214029] (-) TimerEvent: {}
+[31.314760] (-) TimerEvent: {}
+[31.415731] (-) TimerEvent: {}
+[31.516480] (-) TimerEvent: {}
+[31.617435] (-) TimerEvent: {}
+[31.718166] (-) TimerEvent: {}
+[31.818904] (-) TimerEvent: {}
+[31.919630] (-) TimerEvent: {}
+[32.020369] (-) TimerEvent: {}
+[32.121049] (-) TimerEvent: {}
+[32.221981] (-) TimerEvent: {}
+[32.322943] (-) TimerEvent: {}
+[32.423909] (-) TimerEvent: {}
+[32.524636] (-) TimerEvent: {}
+[32.625578] (-) TimerEvent: {}
+[32.726526] (-) TimerEvent: {}
+[32.827261] (-) TimerEvent: {}
+[32.928300] (-) TimerEvent: {}
+[33.029056] (-) TimerEvent: {}
+[33.129750] (-) TimerEvent: {}
+[33.230482] (-) TimerEvent: {}
+[33.331169] (-) TimerEvent: {}
+[33.431885] (-) TimerEvent: {}
+[33.532645] (-) TimerEvent: {}
+[33.633368] (-) TimerEvent: {}
+[33.734080] (-) TimerEvent: {}
+[33.834799] (-) TimerEvent: {}
+[33.935523] (-) TimerEvent: {}
+[34.036275] (-) TimerEvent: {}
+[34.137012] (-) TimerEvent: {}
+[34.237732] (-) TimerEvent: {}
+[34.338430] (-) TimerEvent: {}
+[34.439093] (-) TimerEvent: {}
+[34.539783] (-) TimerEvent: {}
+[34.640527] (-) TimerEvent: {}
+[34.741256] (-) TimerEvent: {}
+[34.841997] (-) TimerEvent: {}
+[34.942731] (-) TimerEvent: {}
+[35.043700] (-) TimerEvent: {}
+[35.144748] (-) TimerEvent: {}
+[35.245464] (-) TimerEvent: {}
+[35.346180] (-) TimerEvent: {}
+[35.446854] (-) TimerEvent: {}
+[35.547783] (-) TimerEvent: {}
+[35.648765] (-) TimerEvent: {}
+[35.749476] (-) TimerEvent: {}
+[35.850158] (-) TimerEvent: {}
+[35.950825] (-) TimerEvent: {}
+[36.051506] (-) TimerEvent: {}
+[36.152232] (-) TimerEvent: {}
+[36.252936] (-) TimerEvent: {}
+[36.353609] (-) TimerEvent: {}
+[36.454273] (-) TimerEvent: {}
+[36.554903] (-) TimerEvent: {}
+[36.655602] (-) TimerEvent: {}
+[36.756344] (-) TimerEvent: {}
+[36.857064] (-) TimerEvent: {}
+[36.957783] (-) TimerEvent: {}
+[37.058504] (-) TimerEvent: {}
+[37.159452] (-) TimerEvent: {}
+[37.260415] (-) TimerEvent: {}
+[37.361139] (-) TimerEvent: {}
+[37.461866] (-) TimerEvent: {}
+[37.562827] (-) TimerEvent: {}
+[37.663561] (-) TimerEvent: {}
+[37.764311] (-) TimerEvent: {}
+[37.865014] (-) TimerEvent: {}
+[37.965707] (-) TimerEvent: {}
+[38.066386] (-) TimerEvent: {}
+[38.167068] (-) TimerEvent: {}
+[38.267743] (-) TimerEvent: {}
+[38.368455] (-) TimerEvent: {}
+[38.469125] (-) TimerEvent: {}
+[38.569798] (-) TimerEvent: {}
+[38.670478] (-) TimerEvent: {}
+[38.771138] (-) TimerEvent: {}
+[38.871819] (-) TimerEvent: {}
+[38.972572] (-) TimerEvent: {}
+[39.073530] (-) TimerEvent: {}
+[39.174485] (-) TimerEvent: {}
+[39.275228] (-) TimerEvent: {}
+[39.376191] (-) TimerEvent: {}
+[39.476898] (-) TimerEvent: {}
+[39.577617] (-) TimerEvent: {}
+[39.678539] (-) TimerEvent: {}
+[39.779499] (-) TimerEvent: {}
+[39.880264] (-) TimerEvent: {}
+[39.980993] (-) TimerEvent: {}
+[40.081950] (-) TimerEvent: {}
+[40.182923] (-) TimerEvent: {}
+[40.283649] (-) TimerEvent: {}
+[40.384643] (-) TimerEvent: {}
+[40.485370] (-) TimerEvent: {}
+[40.541135] (umrt-ros-poe-cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/utility/Serialization.hpp:6\x1b[m\x1b[K,\n'}
+[40.541640] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/Point3f.hpp:7\x1b[m\x1b[K,\n'}
+[40.541858] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/Extrinsics.hpp:9\x1b[m\x1b[K,\n'}
+[40.542001] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/CameraInfo.hpp:4\x1b[m\x1b[K,\n'}
+[40.542126] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/EepromData.hpp:7\x1b[m\x1b[K,\n'}
+[40.542245] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/device/CalibrationHandler.hpp:11\x1b[m\x1b[K,\n'}
+[40.542362] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/depthai.hpp:11\x1b[m\x1b[K,\n'}
+[40.542479] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros_ws/src/umrt-ros-poe-cam/include/umrt-ros-poe-cam/mobilenet_publisher.hpp:21\x1b[m\x1b[K,\n'}
+[40.542619] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros_ws/src/umrt-ros-poe-cam/src/mobilenet_publisher.cpp:12\x1b[m\x1b[K:\n'}
+[40.542734] (umrt-ros-poe-cam) StderrLine: {'line': b'/usr/include/nlohmann/json.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kconstexpr decltype (declval<const basic_json_t&>().get_impl<ValueType>(nlohmann::detail::priority_tag<4>{})) nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get() const [with ValueTypeCV = std::pair<float, float>; ValueType = std::pair<float, float>; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >; decltype (declval<const basic_json_t&>().get_impl<ValueType>(nlohmann::detail::priority_tag<4>{})) = std::pair<float, float>; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::basic_json_t = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.542892] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/variant.hpp:16:66:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid dai::internal::VariantSwitch<N>::operator()(int, const json&, Variant&) const [with Variant = std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > >; long unsigned int N = 1; json = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.543019] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/variant.hpp:18:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid dai::internal::VariantSwitch<N>::operator()(int, const json&, Variant&) const [with Variant = std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > >; long unsigned int N = 2; json = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.543137] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/variant.hpp:50:62:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void nlohmann::adl_serializer<std::variant<_Types ...> >::from_json(const json&, std::variant<_Types ...>&) [with Args = {float, std::pair<float, float>, std::vector<float, std::allocator<float> >}; nlohmann::json = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.543263] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1602:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KValueType nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get_impl(nlohmann::detail::priority_tag<0>) const [with ValueType = std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > >; typename std::enable_if<(nlohmann::detail::is_default_constructible<ValueType>::value && nlohmann::detail::has_from_json<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>, ValueType>::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.543428] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1745:35:\x1b[m\x1b[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]\n'}
+[40.543552] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1793:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KValueType& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get_to(ValueType&) const [with ValueType = std::optional<std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > > >; typename std::enable_if<((! nlohmann::detail::is_basic_json<BasicJsonType>::value) && nlohmann::detail::has_from_json<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>, ValueType>::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.543706] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/capabilities/CapabilityRange.hpp:33:5:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid dai::from_json(const json&, dai::CapabilityRange<float>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.543828] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/detail/conversions/from_json.hpp:480:25:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype (nlohmann::detail::from_json(j, forward<T>(val))) nlohmann::detail::from_json_fn::operator()(const BasicJsonType&, T&&) const [with BasicJsonType = nlohmann::basic_json<>; T = dai::CapabilityRange<float>&; decltype (nlohmann::detail::from_json(j, forward<T>(val))) = void]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.543949] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/adl_serializer.hpp:25:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic decltype ((nlohmann::{anonymous}::from_json(forward<BasicJsonType>(j), val), void())) nlohmann::adl_serializer<T, SFINAE>::from_json(BasicJsonType&&, TargetType&) [with BasicJsonType = const nlohmann::basic_json<>&; TargetType = dai::CapabilityRange<float>; ValueType = dai::CapabilityRange<float>; <template-parameter-1-2> = void; decltype ((nlohmann::{anonymous}::from_json(forward<BasicJsonType>(j), val), void())) = void]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.544118] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1793:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KValueType& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get_to(ValueType&) const [with ValueType = dai::CapabilityRange<float>; typename std::enable_if<((! nlohmann::detail::is_basic_json<BasicJsonType>::value) && nlohmann::detail::has_from_json<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>, ValueType>::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[40.544286] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/capabilities/ImgFrameCapability.hpp:55:5:\x1b[m\x1b[K   required from here\n'}
+[40.544405] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1736:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<float, float>\x1b[m\x1b[K\xe2\x80\x99 when C++17 is enabled changed to match C++14 in GCC 10.1\n'}
+[40.544523] (umrt-ros-poe-cam) StderrLine: {'line': b' 1736 |     auto \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const noexcept(\n'}
+[40.544635] (umrt-ros-poe-cam) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[40.585484] (-) TimerEvent: {}
+[40.686133] (-) TimerEvent: {}
+[40.787095] (-) TimerEvent: {}
+[40.887819] (-) TimerEvent: {}
+[40.988537] (-) TimerEvent: {}
+[41.089213] (-) TimerEvent: {}
+[41.189904] (-) TimerEvent: {}
+[41.290574] (-) TimerEvent: {}
+[41.391238] (-) TimerEvent: {}
+[41.491944] (-) TimerEvent: {}
+[41.592715] (-) TimerEvent: {}
+[41.693440] (-) TimerEvent: {}
+[41.794159] (-) TimerEvent: {}
+[41.894875] (-) TimerEvent: {}
+[41.995555] (-) TimerEvent: {}
+[42.036401] (umrt-ros-poe-cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/utility/Serialization.hpp:6\x1b[m\x1b[K,\n'}
+[42.037061] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/Point3f.hpp:7\x1b[m\x1b[K,\n'}
+[42.037236] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/Extrinsics.hpp:9\x1b[m\x1b[K,\n'}
+[42.037374] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/CameraInfo.hpp:4\x1b[m\x1b[K,\n'}
+[42.037499] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/EepromData.hpp:7\x1b[m\x1b[K,\n'}
+[42.037617] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/device/CalibrationHandler.hpp:11\x1b[m\x1b[K,\n'}
+[42.037732] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/depthai.hpp:11\x1b[m\x1b[K,\n'}
+[42.037846] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros_ws/src/umrt-ros-poe-cam/src/mobilenet_publisher_node.cpp:18\x1b[m\x1b[K:\n'}
+[42.037955] (umrt-ros-poe-cam) StderrLine: {'line': b'/usr/include/nlohmann/json.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kconstexpr decltype (declval<const basic_json_t&>().get_impl<ValueType>(nlohmann::detail::priority_tag<4>{})) nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get() const [with ValueTypeCV = std::pair<float, float>; ValueType = std::pair<float, float>; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >; decltype (declval<const basic_json_t&>().get_impl<ValueType>(nlohmann::detail::priority_tag<4>{})) = std::pair<float, float>; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::basic_json_t = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[42.038121] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/variant.hpp:16:66:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid dai::internal::VariantSwitch<N>::operator()(int, const json&, Variant&) const [with Variant = std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > >; long unsigned int N = 1; json = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[42.038246] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/variant.hpp:18:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid dai::internal::VariantSwitch<N>::operator()(int, const json&, Variant&) const [with Variant = std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > >; long unsigned int N = 2; json = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[42.038362] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/variant.hpp:50:62:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void nlohmann::adl_serializer<std::variant<_Types ...> >::from_json(const json&, std::variant<_Types ...>&) [with Args = {float, std::pair<float, float>, std::vector<float, std::allocator<float> >}; nlohmann::json = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[42.038477] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1602:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KValueType nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get_impl(nlohmann::detail::priority_tag<0>) const [with ValueType = std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > >; typename std::enable_if<(nlohmann::detail::is_default_constructible<ValueType>::value && nlohmann::detail::has_from_json<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>, ValueType>::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[42.038634] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1745:35:\x1b[m\x1b[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]\n'}
+[42.038760] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1793:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KValueType& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get_to(ValueType&) const [with ValueType = std::optional<std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > > >; typename std::enable_if<((! nlohmann::detail::is_basic_json<BasicJsonType>::value) && nlohmann::detail::has_from_json<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>, ValueType>::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[42.038910] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/capabilities/CapabilityRange.hpp:33:5:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid dai::from_json(const json&, dai::CapabilityRange<float>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[42.039030] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/detail/conversions/from_json.hpp:480:25:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype (nlohmann::detail::from_json(j, forward<T>(val))) nlohmann::detail::from_json_fn::operator()(const BasicJsonType&, T&&) const [with BasicJsonType = nlohmann::basic_json<>; T = dai::CapabilityRange<float>&; decltype (nlohmann::detail::from_json(j, forward<T>(val))) = void]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[42.039150] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/adl_serializer.hpp:25:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic decltype ((nlohmann::{anonymous}::from_json(forward<BasicJsonType>(j), val), void())) nlohmann::adl_serializer<T, SFINAE>::from_json(BasicJsonType&&, TargetType&) [with BasicJsonType = const nlohmann::basic_json<>&; TargetType = dai::CapabilityRange<float>; ValueType = dai::CapabilityRange<float>; <template-parameter-1-2> = void; decltype ((nlohmann::{anonymous}::from_json(forward<BasicJsonType>(j), val), void())) = void]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[42.039268] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1793:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KValueType& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get_to(ValueType&) const [with ValueType = dai::CapabilityRange<float>; typename std::enable_if<((! nlohmann::detail::is_basic_json<BasicJsonType>::value) && nlohmann::detail::has_from_json<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>, ValueType>::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[42.039421] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/capabilities/ImgFrameCapability.hpp:55:5:\x1b[m\x1b[K   required from here\n'}
+[42.039537] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1736:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<float, float>\x1b[m\x1b[K\xe2\x80\x99 when C++17 is enabled changed to match C++14 in GCC 10.1\n'}
+[42.039652] (umrt-ros-poe-cam) StderrLine: {'line': b' 1736 |     auto \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const noexcept(\n'}
+[42.039764] (umrt-ros-poe-cam) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[42.095729] (-) TimerEvent: {}
+[42.196438] (-) TimerEvent: {}
+[42.297123] (-) TimerEvent: {}
+[42.397798] (-) TimerEvent: {}
+[42.498465] (-) TimerEvent: {}
+[42.599136] (-) TimerEvent: {}
+[42.699819] (-) TimerEvent: {}
+[42.800529] (-) TimerEvent: {}
+[42.901232] (-) TimerEvent: {}
+[43.001938] (-) TimerEvent: {}
+[43.102852] (-) TimerEvent: {}
+[43.203565] (-) TimerEvent: {}
+[43.304274] (-) TimerEvent: {}
+[43.404939] (-) TimerEvent: {}
+[43.505601] (-) TimerEvent: {}
+[43.606295] (-) TimerEvent: {}
+[43.707266] (-) TimerEvent: {}
+[43.807998] (-) TimerEvent: {}
+[43.908745] (-) TimerEvent: {}
+[44.009441] (-) TimerEvent: {}
+[44.110415] (-) TimerEvent: {}
+[44.211393] (-) TimerEvent: {}
+[44.312160] (-) TimerEvent: {}
+[44.413100] (-) TimerEvent: {}
+[44.513827] (-) TimerEvent: {}
+[44.614547] (-) TimerEvent: {}
+[44.715261] (-) TimerEvent: {}
+[44.815958] (-) TimerEvent: {}
+[44.916654] (-) TimerEvent: {}
+[45.017334] (-) TimerEvent: {}
+[45.118015] (-) TimerEvent: {}
+[45.218681] (-) TimerEvent: {}
+[45.319349] (-) TimerEvent: {}
+[45.420017] (-) TimerEvent: {}
+[45.520700] (-) TimerEvent: {}
+[45.621366] (-) TimerEvent: {}
+[45.722334] (-) TimerEvent: {}
+[45.823054] (-) TimerEvent: {}
+[45.923988] (-) TimerEvent: {}
+[46.024673] (-) TimerEvent: {}
+[46.125355] (-) TimerEvent: {}
+[46.226055] (-) TimerEvent: {}
+[46.326838] (-) TimerEvent: {}
+[46.427525] (-) TimerEvent: {}
+[46.528118] (-) TimerEvent: {}
+[46.628612] (-) TimerEvent: {}
+[46.729087] (-) TimerEvent: {}
+[46.829549] (-) TimerEvent: {}
+[46.930007] (-) TimerEvent: {}
+[47.030585] (-) TimerEvent: {}
+[47.131312] (-) TimerEvent: {}
+[47.232181] (-) TimerEvent: {}
+[47.332945] (-) TimerEvent: {}
+[47.433675] (-) TimerEvent: {}
+[47.534413] (-) TimerEvent: {}
+[47.634990] (-) TimerEvent: {}
+[47.735573] (-) TimerEvent: {}
+[47.836153] (-) TimerEvent: {}
+[47.936955] (-) TimerEvent: {}
+[48.037660] (-) TimerEvent: {}
+[48.138361] (-) TimerEvent: {}
+[48.238951] (-) TimerEvent: {}
+[48.251680] (umrt-ros-poe-cam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mobilenet_node.dir/build.make:90: CMakeFiles/mobilenet_node.dir/src/mobilenet_publisher_node.cpp.o] Error 1\n'}
+[48.252448] (umrt-ros-poe-cam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mobilenet_node.dir/all] Error 2\n'}
+[48.252993] (umrt-ros-poe-cam) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[48.259342] (umrt-ros-poe-cam) CommandEnded: {'returncode': 2}
+[48.306052] (umrt-ros-poe-cam) JobEnded: {'identifier': 'umrt-ros-poe-cam', 'rc': 2}
+[48.317374] (-) EventReactorShutdown: {}

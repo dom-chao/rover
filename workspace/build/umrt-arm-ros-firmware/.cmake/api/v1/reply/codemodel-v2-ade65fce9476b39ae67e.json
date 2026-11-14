@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-535e768acc689471c290.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "umrt-arm-ros-firmware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "umrt-arm-ros-firmware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-umrt-arm-ros-firmware-b0aad946346463b168b8.json",
+					"name" : "umrt-arm-ros-firmware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "umrt-arm-ros-firmware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-umrt-arm-ros-firmware_uninstall-1d968b2a344f2060aada.json",
+					"name" : "umrt-arm-ros-firmware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-08dba79df253bc685efa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros_ws/workspace/build/umrt-arm-ros-firmware",
+		"source" : "/ros_ws/workspace/src/umrt-arm-ros-firmware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

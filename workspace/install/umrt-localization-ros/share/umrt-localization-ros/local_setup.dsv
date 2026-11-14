@@ -1,0 +1,2 @@
+source;share/umrt-localization-ros/environment/ament_prefix_path.sh
+source;share/umrt-localization-ros/environment/path.sh

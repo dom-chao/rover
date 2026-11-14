@@ -1,0 +1,657 @@
+[0.000000] (-) TimerEvent: {}
+[0.001286] (-) JobUnselected: {'identifier': 'umrt-arm-ros-firmware'}
+[0.001559] (-) JobUnselected: {'identifier': 'umrt-localization-ros'}
+[0.001901] (-) JobUnselected: {'identifier': 'umrt-serial-cam-ros'}
+[0.001980] (umrt-ros-poe-cam) JobQueued: {'identifier': 'umrt-ros-poe-cam', 'dependencies': OrderedDict()}
+[0.002118] (umrt-ros-poe-cam) JobStarted: {'identifier': 'umrt-ros-poe-cam'}
+[0.022294] (umrt-ros-poe-cam) JobProgress: {'identifier': 'umrt-ros-poe-cam', 'progress': 'cmake'}
+[0.023751] (umrt-ros-poe-cam) JobProgress: {'identifier': 'umrt-ros-poe-cam', 'progress': 'build'}
+[0.025140] (umrt-ros-poe-cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros_ws/workspace/build/umrt-ros-poe-cam', '--', '-j8', '-l8'], 'cwd': '/ros_ws/workspace/build/umrt-ros-poe-cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARMCAM0', '/dev/video0'), ('ARMCAM1', ''), ('HOSTNAME', '0eaa03f60eba'), ('CAM1', ''), ('CAM2', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros_ws/workspace/install/umrt-arm-ros-firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros_ws'), ('ROUTE_POLICY', 'drop-default'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros_ws/workspace/install'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROVERCAM0', ''), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROVERCAM1', ''), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/dds-configs/fastdds-rover-hi.xml'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/ros_ws/workspace/install/umrt-serial-cam-ros:/ros_ws/workspace/install/umrt-ros-poe-cam:/ros_ws/workspace/install/umrt-localization-ros:/ros_ws/workspace/install/umrt-arm-ros-firmware:/opt/ros/humble'), ('FASTDDS_DEFAULT_PROFILES_FILE', '/dds-configs/fastdds-rover-hi.xml'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/ros_ws/workspace/build/umrt-ros-poe-cam'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_ws/workspace/install/umrt-serial-cam-ros:/ros_ws/workspace/install/umrt-ros-poe-cam:/ros_ws/workspace/install/umrt-localization-ros:/ros_ws/workspace/install/umrt-arm-ros-firmware:/opt/ros/humble')]), 'shell': False}
+[0.099192] (-) TimerEvent: {}
+[0.133324] (umrt-ros-poe-cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target republisher_node\x1b[0m\n'}
+[0.134779] (umrt-ros-poe-cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mobilenet_node\x1b[0m\n'}
+[0.193795] (umrt-ros-poe-cam) StdoutLine: {'line': b'[ 50%] Built target republisher_node\n'}
+[0.199335] (-) TimerEvent: {}
+[0.207792] (umrt-ros-poe-cam) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mobilenet_node.dir/src/mobilenet_publisher_node.cpp.o\x1b[0m\n'}
+[0.299537] (-) TimerEvent: {}
+[0.400415] (-) TimerEvent: {}
+[0.501291] (-) TimerEvent: {}
+[0.602127] (-) TimerEvent: {}
+[0.702947] (-) TimerEvent: {}
+[0.803639] (-) TimerEvent: {}
+[0.904370] (-) TimerEvent: {}
+[1.005242] (-) TimerEvent: {}
+[1.106080] (-) TimerEvent: {}
+[1.206916] (-) TimerEvent: {}
+[1.307770] (-) TimerEvent: {}
+[1.408661] (-) TimerEvent: {}
+[1.509497] (-) TimerEvent: {}
+[1.610352] (-) TimerEvent: {}
+[1.711203] (-) TimerEvent: {}
+[1.812049] (-) TimerEvent: {}
+[1.912823] (-) TimerEvent: {}
+[2.013678] (-) TimerEvent: {}
+[2.114641] (-) TimerEvent: {}
+[2.215507] (-) TimerEvent: {}
+[2.316357] (-) TimerEvent: {}
+[2.417247] (-) TimerEvent: {}
+[2.518095] (-) TimerEvent: {}
+[2.618963] (-) TimerEvent: {}
+[2.719793] (-) TimerEvent: {}
+[2.820662] (-) TimerEvent: {}
+[2.921512] (-) TimerEvent: {}
+[3.022402] (-) TimerEvent: {}
+[3.123256] (-) TimerEvent: {}
+[3.224110] (-) TimerEvent: {}
+[3.325094] (-) TimerEvent: {}
+[3.425941] (-) TimerEvent: {}
+[3.526788] (-) TimerEvent: {}
+[3.627648] (-) TimerEvent: {}
+[3.728491] (-) TimerEvent: {}
+[3.829384] (-) TimerEvent: {}
+[3.930221] (-) TimerEvent: {}
+[4.031034] (-) TimerEvent: {}
+[4.131757] (-) TimerEvent: {}
+[4.232718] (-) TimerEvent: {}
+[4.333590] (-) TimerEvent: {}
+[4.434414] (-) TimerEvent: {}
+[4.535259] (-) TimerEvent: {}
+[4.636109] (-) TimerEvent: {}
+[4.737000] (-) TimerEvent: {}
+[4.837878] (-) TimerEvent: {}
+[4.938725] (-) TimerEvent: {}
+[5.039579] (-) TimerEvent: {}
+[5.140426] (-) TimerEvent: {}
+[5.241346] (-) TimerEvent: {}
+[5.342161] (-) TimerEvent: {}
+[5.442890] (-) TimerEvent: {}
+[5.543752] (-) TimerEvent: {}
+[5.644644] (-) TimerEvent: {}
+[5.745478] (-) TimerEvent: {}
+[5.846549] (-) TimerEvent: {}
+[5.947219] (-) TimerEvent: {}
+[6.047969] (-) TimerEvent: {}
+[6.148835] (-) TimerEvent: {}
+[6.249621] (-) TimerEvent: {}
+[6.350491] (-) TimerEvent: {}
+[6.451356] (-) TimerEvent: {}
+[6.552229] (-) TimerEvent: {}
+[6.653112] (-) TimerEvent: {}
+[6.754070] (-) TimerEvent: {}
+[6.854799] (-) TimerEvent: {}
+[6.955580] (-) TimerEvent: {}
+[7.056444] (-) TimerEvent: {}
+[7.157349] (-) TimerEvent: {}
+[7.258245] (-) TimerEvent: {}
+[7.359087] (-) TimerEvent: {}
+[7.459821] (-) TimerEvent: {}
+[7.560713] (-) TimerEvent: {}
+[7.661582] (-) TimerEvent: {}
+[7.762437] (-) TimerEvent: {}
+[7.863284] (-) TimerEvent: {}
+[7.964130] (-) TimerEvent: {}
+[8.065057] (-) TimerEvent: {}
+[8.165920] (-) TimerEvent: {}
+[8.266776] (-) TimerEvent: {}
+[8.367619] (-) TimerEvent: {}
+[8.468500] (-) TimerEvent: {}
+[8.569383] (-) TimerEvent: {}
+[8.670202] (-) TimerEvent: {}
+[8.770931] (-) TimerEvent: {}
+[8.871760] (-) TimerEvent: {}
+[8.972645] (-) TimerEvent: {}
+[9.073502] (-) TimerEvent: {}
+[9.174417] (-) TimerEvent: {}
+[9.275288] (-) TimerEvent: {}
+[9.376148] (-) TimerEvent: {}
+[9.477037] (-) TimerEvent: {}
+[9.577899] (-) TimerEvent: {}
+[9.678757] (-) TimerEvent: {}
+[9.779609] (-) TimerEvent: {}
+[9.880455] (-) TimerEvent: {}
+[9.981329] (-) TimerEvent: {}
+[10.082162] (-) TimerEvent: {}
+[10.183054] (-) TimerEvent: {}
+[10.284901] (-) TimerEvent: {}
+[10.385719] (-) TimerEvent: {}
+[10.486487] (-) TimerEvent: {}
+[10.587310] (-) TimerEvent: {}
+[10.688185] (-) TimerEvent: {}
+[10.789055] (-) TimerEvent: {}
+[10.889780] (-) TimerEvent: {}
+[10.990669] (-) TimerEvent: {}
+[11.091534] (-) TimerEvent: {}
+[11.192417] (-) TimerEvent: {}
+[11.293304] (-) TimerEvent: {}
+[11.394158] (-) TimerEvent: {}
+[11.495013] (-) TimerEvent: {}
+[11.596250] (-) TimerEvent: {}
+[11.696964] (-) TimerEvent: {}
+[11.797687] (-) TimerEvent: {}
+[11.898444] (-) TimerEvent: {}
+[11.999295] (-) TimerEvent: {}
+[12.100172] (-) TimerEvent: {}
+[12.201080] (-) TimerEvent: {}
+[12.301975] (-) TimerEvent: {}
+[12.402854] (-) TimerEvent: {}
+[12.503751] (-) TimerEvent: {}
+[12.604677] (-) TimerEvent: {}
+[12.705561] (-) TimerEvent: {}
+[12.806410] (-) TimerEvent: {}
+[12.907258] (-) TimerEvent: {}
+[13.008117] (-) TimerEvent: {}
+[13.109005] (-) TimerEvent: {}
+[13.209864] (-) TimerEvent: {}
+[13.310699] (-) TimerEvent: {}
+[13.411413] (-) TimerEvent: {}
+[13.512260] (-) TimerEvent: {}
+[13.613120] (-) TimerEvent: {}
+[13.713964] (-) TimerEvent: {}
+[13.814824] (-) TimerEvent: {}
+[13.915693] (-) TimerEvent: {}
+[14.016534] (-) TimerEvent: {}
+[14.117415] (-) TimerEvent: {}
+[14.218255] (-) TimerEvent: {}
+[14.319096] (-) TimerEvent: {}
+[14.419938] (-) TimerEvent: {}
+[14.520785] (-) TimerEvent: {}
+[14.621620] (-) TimerEvent: {}
+[14.722333] (-) TimerEvent: {}
+[14.823167] (-) TimerEvent: {}
+[14.924015] (-) TimerEvent: {}
+[15.024886] (-) TimerEvent: {}
+[15.125726] (-) TimerEvent: {}
+[15.226571] (-) TimerEvent: {}
+[15.327422] (-) TimerEvent: {}
+[15.428288] (-) TimerEvent: {}
+[15.529179] (-) TimerEvent: {}
+[15.630038] (-) TimerEvent: {}
+[15.730894] (-) TimerEvent: {}
+[15.831742] (-) TimerEvent: {}
+[15.932641] (-) TimerEvent: {}
+[16.033492] (-) TimerEvent: {}
+[16.134341] (-) TimerEvent: {}
+[16.235203] (-) TimerEvent: {}
+[16.336054] (-) TimerEvent: {}
+[16.436936] (-) TimerEvent: {}
+[16.537778] (-) TimerEvent: {}
+[16.638598] (-) TimerEvent: {}
+[16.739320] (-) TimerEvent: {}
+[16.840167] (-) TimerEvent: {}
+[16.941034] (-) TimerEvent: {}
+[17.041906] (-) TimerEvent: {}
+[17.142768] (-) TimerEvent: {}
+[17.243608] (-) TimerEvent: {}
+[17.344421] (-) TimerEvent: {}
+[17.445166] (-) TimerEvent: {}
+[17.546002] (-) TimerEvent: {}
+[17.646717] (-) TimerEvent: {}
+[17.747549] (-) TimerEvent: {}
+[17.848470] (-) TimerEvent: {}
+[17.949364] (-) TimerEvent: {}
+[18.050231] (-) TimerEvent: {}
+[18.151077] (-) TimerEvent: {}
+[18.251944] (-) TimerEvent: {}
+[18.352820] (-) TimerEvent: {}
+[18.453670] (-) TimerEvent: {}
+[18.554519] (-) TimerEvent: {}
+[18.655349] (-) TimerEvent: {}
+[18.756057] (-) TimerEvent: {}
+[18.856923] (-) TimerEvent: {}
+[18.957800] (-) TimerEvent: {}
+[19.058650] (-) TimerEvent: {}
+[19.159515] (-) TimerEvent: {}
+[19.260392] (-) TimerEvent: {}
+[19.361630] (-) TimerEvent: {}
+[19.462488] (-) TimerEvent: {}
+[19.563349] (-) TimerEvent: {}
+[19.664212] (-) TimerEvent: {}
+[19.765107] (-) TimerEvent: {}
+[19.865950] (-) TimerEvent: {}
+[19.966774] (-) TimerEvent: {}
+[20.067509] (-) TimerEvent: {}
+[20.168342] (-) TimerEvent: {}
+[20.269216] (-) TimerEvent: {}
+[20.370048] (-) TimerEvent: {}
+[20.470892] (-) TimerEvent: {}
+[20.571752] (-) TimerEvent: {}
+[20.672630] (-) TimerEvent: {}
+[20.773472] (-) TimerEvent: {}
+[20.874297] (-) TimerEvent: {}
+[20.975162] (-) TimerEvent: {}
+[21.076019] (-) TimerEvent: {}
+[21.176884] (-) TimerEvent: {}
+[21.277698] (-) TimerEvent: {}
+[21.378437] (-) TimerEvent: {}
+[21.479286] (-) TimerEvent: {}
+[21.580156] (-) TimerEvent: {}
+[21.681049] (-) TimerEvent: {}
+[21.781896] (-) TimerEvent: {}
+[21.882712] (-) TimerEvent: {}
+[21.983434] (-) TimerEvent: {}
+[22.084286] (-) TimerEvent: {}
+[22.185194] (-) TimerEvent: {}
+[22.286047] (-) TimerEvent: {}
+[22.386883] (-) TimerEvent: {}
+[22.487724] (-) TimerEvent: {}
+[22.588583] (-) TimerEvent: {}
+[22.689319] (-) TimerEvent: {}
+[22.790165] (-) TimerEvent: {}
+[22.891005] (-) TimerEvent: {}
+[22.991848] (-) TimerEvent: {}
+[23.092723] (-) TimerEvent: {}
+[23.193560] (-) TimerEvent: {}
+[23.294371] (-) TimerEvent: {}
+[23.395107] (-) TimerEvent: {}
+[23.495962] (-) TimerEvent: {}
+[23.596911] (-) TimerEvent: {}
+[23.697912] (-) TimerEvent: {}
+[23.798822] (-) TimerEvent: {}
+[23.899528] (-) TimerEvent: {}
+[24.000227] (-) TimerEvent: {}
+[24.100950] (-) TimerEvent: {}
+[24.201673] (-) TimerEvent: {}
+[24.302376] (-) TimerEvent: {}
+[24.403142] (-) TimerEvent: {}
+[24.503832] (-) TimerEvent: {}
+[24.604528] (-) TimerEvent: {}
+[24.705241] (-) TimerEvent: {}
+[24.805929] (-) TimerEvent: {}
+[24.906624] (-) TimerEvent: {}
+[25.007314] (-) TimerEvent: {}
+[25.108012] (-) TimerEvent: {}
+[25.208703] (-) TimerEvent: {}
+[25.309399] (-) TimerEvent: {}
+[25.410098] (-) TimerEvent: {}
+[25.510798] (-) TimerEvent: {}
+[25.611479] (-) TimerEvent: {}
+[25.712191] (-) TimerEvent: {}
+[25.812912] (-) TimerEvent: {}
+[25.913616] (-) TimerEvent: {}
+[26.014327] (-) TimerEvent: {}
+[26.115031] (-) TimerEvent: {}
+[26.215727] (-) TimerEvent: {}
+[26.316422] (-) TimerEvent: {}
+[26.417185] (-) TimerEvent: {}
+[26.517878] (-) TimerEvent: {}
+[26.618591] (-) TimerEvent: {}
+[26.719281] (-) TimerEvent: {}
+[26.819985] (-) TimerEvent: {}
+[26.920713] (-) TimerEvent: {}
+[27.021415] (-) TimerEvent: {}
+[27.122122] (-) TimerEvent: {}
+[27.222840] (-) TimerEvent: {}
+[27.323533] (-) TimerEvent: {}
+[27.424234] (-) TimerEvent: {}
+[27.524969] (-) TimerEvent: {}
+[27.625671] (-) TimerEvent: {}
+[27.726361] (-) TimerEvent: {}
+[27.827059] (-) TimerEvent: {}
+[27.927767] (-) TimerEvent: {}
+[28.028462] (-) TimerEvent: {}
+[28.129185] (-) TimerEvent: {}
+[28.229875] (-) TimerEvent: {}
+[28.330598] (-) TimerEvent: {}
+[28.431292] (-) TimerEvent: {}
+[28.531990] (-) TimerEvent: {}
+[28.632716] (-) TimerEvent: {}
+[28.733409] (-) TimerEvent: {}
+[28.834159] (-) TimerEvent: {}
+[28.934851] (-) TimerEvent: {}
+[29.035559] (-) TimerEvent: {}
+[29.136255] (-) TimerEvent: {}
+[29.236978] (-) TimerEvent: {}
+[29.337668] (-) TimerEvent: {}
+[29.438505] (-) TimerEvent: {}
+[29.539846] (-) TimerEvent: {}
+[29.640539] (-) TimerEvent: {}
+[29.741307] (-) TimerEvent: {}
+[29.842020] (-) TimerEvent: {}
+[29.942712] (-) TimerEvent: {}
+[30.043421] (-) TimerEvent: {}
+[30.144096] (-) TimerEvent: {}
+[30.244797] (-) TimerEvent: {}
+[30.345502] (-) TimerEvent: {}
+[30.446223] (-) TimerEvent: {}
+[30.546926] (-) TimerEvent: {}
+[30.647683] (-) TimerEvent: {}
+[30.748906] (-) TimerEvent: {}
+[30.849673] (-) TimerEvent: {}
+[30.950354] (-) TimerEvent: {}
+[31.051053] (-) TimerEvent: {}
+[31.151762] (-) TimerEvent: {}
+[31.252461] (-) TimerEvent: {}
+[31.353177] (-) TimerEvent: {}
+[31.453890] (-) TimerEvent: {}
+[31.554587] (-) TimerEvent: {}
+[31.655277] (-) TimerEvent: {}
+[31.755988] (-) TimerEvent: {}
+[31.856715] (-) TimerEvent: {}
+[31.957405] (-) TimerEvent: {}
+[32.058115] (-) TimerEvent: {}
+[32.158828] (-) TimerEvent: {}
+[32.259529] (-) TimerEvent: {}
+[32.360242] (-) TimerEvent: {}
+[32.460959] (-) TimerEvent: {}
+[32.561654] (-) TimerEvent: {}
+[32.662350] (-) TimerEvent: {}
+[32.763068] (-) TimerEvent: {}
+[32.863824] (-) TimerEvent: {}
+[32.964526] (-) TimerEvent: {}
+[33.065254] (-) TimerEvent: {}
+[33.165940] (-) TimerEvent: {}
+[33.266653] (-) TimerEvent: {}
+[33.367349] (-) TimerEvent: {}
+[33.468052] (-) TimerEvent: {}
+[33.568723] (-) TimerEvent: {}
+[33.669422] (-) TimerEvent: {}
+[33.770116] (-) TimerEvent: {}
+[33.870816] (-) TimerEvent: {}
+[33.971526] (-) TimerEvent: {}
+[34.072227] (-) TimerEvent: {}
+[34.172947] (-) TimerEvent: {}
+[34.273856] (-) TimerEvent: {}
+[34.374564] (-) TimerEvent: {}
+[34.475268] (-) TimerEvent: {}
+[34.575955] (-) TimerEvent: {}
+[34.676690] (-) TimerEvent: {}
+[34.777382] (-) TimerEvent: {}
+[34.878076] (-) TimerEvent: {}
+[34.978845] (-) TimerEvent: {}
+[35.079606] (-) TimerEvent: {}
+[35.180313] (-) TimerEvent: {}
+[35.281045] (-) TimerEvent: {}
+[35.381772] (-) TimerEvent: {}
+[35.482475] (-) TimerEvent: {}
+[35.583182] (-) TimerEvent: {}
+[35.683885] (-) TimerEvent: {}
+[35.784601] (-) TimerEvent: {}
+[35.885298] (-) TimerEvent: {}
+[35.985990] (-) TimerEvent: {}
+[36.086671] (-) TimerEvent: {}
+[36.187365] (-) TimerEvent: {}
+[36.288059] (-) TimerEvent: {}
+[36.388800] (-) TimerEvent: {}
+[36.489518] (-) TimerEvent: {}
+[36.590210] (-) TimerEvent: {}
+[36.690898] (-) TimerEvent: {}
+[36.791615] (-) TimerEvent: {}
+[36.892321] (-) TimerEvent: {}
+[36.993602] (-) TimerEvent: {}
+[37.094298] (-) TimerEvent: {}
+[37.194993] (-) TimerEvent: {}
+[37.295697] (-) TimerEvent: {}
+[37.396456] (-) TimerEvent: {}
+[37.497206] (-) TimerEvent: {}
+[37.597887] (-) TimerEvent: {}
+[37.698625] (-) TimerEvent: {}
+[37.799313] (-) TimerEvent: {}
+[37.900019] (-) TimerEvent: {}
+[38.000719] (-) TimerEvent: {}
+[38.101405] (-) TimerEvent: {}
+[38.202102] (-) TimerEvent: {}
+[38.302833] (-) TimerEvent: {}
+[38.403664] (-) TimerEvent: {}
+[38.504497] (-) TimerEvent: {}
+[38.605340] (-) TimerEvent: {}
+[38.706189] (-) TimerEvent: {}
+[38.807030] (-) TimerEvent: {}
+[38.907875] (-) TimerEvent: {}
+[39.008744] (-) TimerEvent: {}
+[39.109586] (-) TimerEvent: {}
+[39.210435] (-) TimerEvent: {}
+[39.311272] (-) TimerEvent: {}
+[39.412135] (-) TimerEvent: {}
+[39.513007] (-) TimerEvent: {}
+[39.613831] (-) TimerEvent: {}
+[39.714548] (-) TimerEvent: {}
+[39.815256] (-) TimerEvent: {}
+[39.915961] (-) TimerEvent: {}
+[40.016684] (-) TimerEvent: {}
+[40.117398] (-) TimerEvent: {}
+[40.218118] (-) TimerEvent: {}
+[40.318835] (-) TimerEvent: {}
+[40.419546] (-) TimerEvent: {}
+[40.520254] (-) TimerEvent: {}
+[40.620990] (-) TimerEvent: {}
+[40.721708] (-) TimerEvent: {}
+[40.822412] (-) TimerEvent: {}
+[40.923115] (-) TimerEvent: {}
+[41.023819] (-) TimerEvent: {}
+[41.124495] (-) TimerEvent: {}
+[41.225208] (-) TimerEvent: {}
+[41.325900] (-) TimerEvent: {}
+[41.426606] (-) TimerEvent: {}
+[41.527302] (-) TimerEvent: {}
+[41.628004] (-) TimerEvent: {}
+[41.637665] (umrt-ros-poe-cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/utility/Serialization.hpp:6\x1b[m\x1b[K,\n'}
+[41.638479] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/Point3f.hpp:7\x1b[m\x1b[K,\n'}
+[41.638685] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/Extrinsics.hpp:9\x1b[m\x1b[K,\n'}
+[41.638845] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/CameraInfo.hpp:4\x1b[m\x1b[K,\n'}
+[41.638993] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/EepromData.hpp:7\x1b[m\x1b[K,\n'}
+[41.639134] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/device/CalibrationHandler.hpp:11\x1b[m\x1b[K,\n'}
+[41.639276] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/depthai/depthai.hpp:11\x1b[m\x1b[K,\n'}
+[41.639415] (umrt-ros-poe-cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros_ws/workspace/src/umrt-ros-poe-cam/src/mobilenet_publisher_node.cpp:18\x1b[m\x1b[K:\n'}
+[41.639549] (umrt-ros-poe-cam) StderrLine: {'line': b'/usr/include/nlohmann/json.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kconstexpr decltype (declval<const basic_json_t&>().get_impl<ValueType>(nlohmann::detail::priority_tag<4>{})) nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get() const [with ValueTypeCV = std::pair<float, float>; ValueType = std::pair<float, float>; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >; decltype (declval<const basic_json_t&>().get_impl<ValueType>(nlohmann::detail::priority_tag<4>{})) = std::pair<float, float>; nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::basic_json_t = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.639712] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/variant.hpp:16:66:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid dai::internal::VariantSwitch<N>::operator()(int, const json&, Variant&) const [with Variant = std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > >; long unsigned int N = 1; json = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.639902] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/variant.hpp:18:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid dai::internal::VariantSwitch<N>::operator()(int, const json&, Variant&) const [with Variant = std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > >; long unsigned int N = 2; json = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.640045] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/common/variant.hpp:50:62:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void nlohmann::adl_serializer<std::variant<_Types ...> >::from_json(const json&, std::variant<_Types ...>&) [with Args = {float, std::pair<float, float>, std::vector<float, std::allocator<float> >}; nlohmann::json = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.640289] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1602:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KValueType nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get_impl(nlohmann::detail::priority_tag<0>) const [with ValueType = std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > >; typename std::enable_if<(nlohmann::detail::is_default_constructible<ValueType>::value && nlohmann::detail::has_from_json<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>, ValueType>::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.640536] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1745:35:\x1b[m\x1b[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]\n'}
+[41.640728] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1793:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KValueType& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get_to(ValueType&) const [with ValueType = std::optional<std::variant<float, std::pair<float, float>, std::vector<float, std::allocator<float> > > >; typename std::enable_if<((! nlohmann::detail::is_basic_json<BasicJsonType>::value) && nlohmann::detail::has_from_json<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>, ValueType>::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.640886] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/capabilities/CapabilityRange.hpp:33:5:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid dai::from_json(const json&, dai::CapabilityRange<float>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.641132] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/detail/conversions/from_json.hpp:480:25:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype (nlohmann::detail::from_json(j, forward<T>(val))) nlohmann::detail::from_json_fn::operator()(const BasicJsonType&, T&&) const [with BasicJsonType = nlohmann::basic_json<>; T = dai::CapabilityRange<float>&; decltype (nlohmann::detail::from_json(j, forward<T>(val))) = void]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.641348] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/adl_serializer.hpp:25:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic decltype ((nlohmann::{anonymous}::from_json(forward<BasicJsonType>(j), val), void())) nlohmann::adl_serializer<T, SFINAE>::from_json(BasicJsonType&&, TargetType&) [with BasicJsonType = const nlohmann::basic_json<>&; TargetType = dai::CapabilityRange<float>; ValueType = dai::CapabilityRange<float>; <template-parameter-1-2> = void; decltype ((nlohmann::{anonymous}::from_json(forward<BasicJsonType>(j), val), void())) = void]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.641499] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1793:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KValueType& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::get_to(ValueType&) const [with ValueType = dai::CapabilityRange<float>; typename std::enable_if<((! nlohmann::detail::is_basic_json<BasicJsonType>::value) && nlohmann::detail::has_from_json<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>, ValueType>::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[41.641763] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/depthai/capabilities/ImgFrameCapability.hpp:55:5:\x1b[m\x1b[K   required from here\n'}
+[41.642286] (umrt-ros-poe-cam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/nlohmann/json.hpp:1736:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<float, float>\x1b[m\x1b[K\xe2\x80\x99 when C++17 is enabled changed to match C++14 in GCC 10.1\n'}
+[41.642596] (umrt-ros-poe-cam) StderrLine: {'line': b' 1736 |     auto \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const noexcept(\n'}
+[41.642871] (umrt-ros-poe-cam) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[41.728181] (-) TimerEvent: {}
+[41.828910] (-) TimerEvent: {}
+[41.929604] (-) TimerEvent: {}
+[42.030301] (-) TimerEvent: {}
+[42.131048] (-) TimerEvent: {}
+[42.231757] (-) TimerEvent: {}
+[42.332453] (-) TimerEvent: {}
+[42.433165] (-) TimerEvent: {}
+[42.533862] (-) TimerEvent: {}
+[42.634547] (-) TimerEvent: {}
+[42.735240] (-) TimerEvent: {}
+[42.835923] (-) TimerEvent: {}
+[42.936638] (-) TimerEvent: {}
+[43.037322] (-) TimerEvent: {}
+[43.138025] (-) TimerEvent: {}
+[43.238733] (-) TimerEvent: {}
+[43.339421] (-) TimerEvent: {}
+[43.440102] (-) TimerEvent: {}
+[43.540808] (-) TimerEvent: {}
+[43.641510] (-) TimerEvent: {}
+[43.742214] (-) TimerEvent: {}
+[43.842904] (-) TimerEvent: {}
+[43.943605] (-) TimerEvent: {}
+[44.044309] (-) TimerEvent: {}
+[44.145020] (-) TimerEvent: {}
+[44.245721] (-) TimerEvent: {}
+[44.346434] (-) TimerEvent: {}
+[44.447138] (-) TimerEvent: {}
+[44.547831] (-) TimerEvent: {}
+[44.648689] (-) TimerEvent: {}
+[44.749386] (-) TimerEvent: {}
+[44.850076] (-) TimerEvent: {}
+[44.950770] (-) TimerEvent: {}
+[45.051497] (-) TimerEvent: {}
+[45.152244] (-) TimerEvent: {}
+[45.252994] (-) TimerEvent: {}
+[45.353693] (-) TimerEvent: {}
+[45.454407] (-) TimerEvent: {}
+[45.555174] (-) TimerEvent: {}
+[45.655859] (-) TimerEvent: {}
+[45.756636] (-) TimerEvent: {}
+[45.857365] (-) TimerEvent: {}
+[45.958073] (-) TimerEvent: {}
+[46.058771] (-) TimerEvent: {}
+[46.159521] (-) TimerEvent: {}
+[46.260217] (-) TimerEvent: {}
+[46.360945] (-) TimerEvent: {}
+[46.461642] (-) TimerEvent: {}
+[46.562339] (-) TimerEvent: {}
+[46.663040] (-) TimerEvent: {}
+[46.763732] (-) TimerEvent: {}
+[46.864406] (-) TimerEvent: {}
+[46.965097] (-) TimerEvent: {}
+[47.065790] (-) TimerEvent: {}
+[47.166466] (-) TimerEvent: {}
+[47.267158] (-) TimerEvent: {}
+[47.367849] (-) TimerEvent: {}
+[47.468538] (-) TimerEvent: {}
+[47.569263] (-) TimerEvent: {}
+[47.669945] (-) TimerEvent: {}
+[47.770624] (-) TimerEvent: {}
+[47.871313] (-) TimerEvent: {}
+[47.972014] (-) TimerEvent: {}
+[48.072735] (-) TimerEvent: {}
+[48.173433] (-) TimerEvent: {}
+[48.274132] (-) TimerEvent: {}
+[48.374835] (-) TimerEvent: {}
+[48.475537] (-) TimerEvent: {}
+[48.576229] (-) TimerEvent: {}
+[48.676933] (-) TimerEvent: {}
+[48.777603] (-) TimerEvent: {}
+[48.878267] (-) TimerEvent: {}
+[48.978946] (-) TimerEvent: {}
+[49.079620] (-) TimerEvent: {}
+[49.180294] (-) TimerEvent: {}
+[49.281000] (-) TimerEvent: {}
+[49.381680] (-) TimerEvent: {}
+[49.482369] (-) TimerEvent: {}
+[49.583075] (-) TimerEvent: {}
+[49.683760] (-) TimerEvent: {}
+[49.784433] (-) TimerEvent: {}
+[49.885132] (-) TimerEvent: {}
+[49.985799] (-) TimerEvent: {}
+[50.086494] (-) TimerEvent: {}
+[50.187166] (-) TimerEvent: {}
+[50.287830] (-) TimerEvent: {}
+[50.388503] (-) TimerEvent: {}
+[50.489190] (-) TimerEvent: {}
+[50.589847] (-) TimerEvent: {}
+[50.690512] (-) TimerEvent: {}
+[50.791185] (-) TimerEvent: {}
+[50.891876] (-) TimerEvent: {}
+[50.992534] (-) TimerEvent: {}
+[51.093234] (-) TimerEvent: {}
+[51.193912] (-) TimerEvent: {}
+[51.294593] (-) TimerEvent: {}
+[51.395263] (-) TimerEvent: {}
+[51.496129] (-) TimerEvent: {}
+[51.596865] (-) TimerEvent: {}
+[51.697592] (-) TimerEvent: {}
+[51.798338] (-) TimerEvent: {}
+[51.899074] (-) TimerEvent: {}
+[51.999854] (-) TimerEvent: {}
+[52.100531] (-) TimerEvent: {}
+[52.201212] (-) TimerEvent: {}
+[52.302209] (-) TimerEvent: {}
+[52.402883] (-) TimerEvent: {}
+[52.503554] (-) TimerEvent: {}
+[52.604235] (-) TimerEvent: {}
+[52.704935] (-) TimerEvent: {}
+[52.805588] (-) TimerEvent: {}
+[52.906244] (-) TimerEvent: {}
+[53.007169] (-) TimerEvent: {}
+[53.107848] (-) TimerEvent: {}
+[53.208522] (-) TimerEvent: {}
+[53.309452] (-) TimerEvent: {}
+[53.410362] (-) TimerEvent: {}
+[53.511047] (-) TimerEvent: {}
+[53.611698] (-) TimerEvent: {}
+[53.712362] (-) TimerEvent: {}
+[53.813053] (-) TimerEvent: {}
+[53.913731] (-) TimerEvent: {}
+[54.014396] (-) TimerEvent: {}
+[54.115063] (-) TimerEvent: {}
+[54.215731] (-) TimerEvent: {}
+[54.316403] (-) TimerEvent: {}
+[54.417110] (-) TimerEvent: {}
+[54.517787] (-) TimerEvent: {}
+[54.618456] (-) TimerEvent: {}
+[54.719164] (-) TimerEvent: {}
+[54.819863] (-) TimerEvent: {}
+[54.920517] (-) TimerEvent: {}
+[55.021487] (-) TimerEvent: {}
+[55.122174] (-) TimerEvent: {}
+[55.222870] (-) TimerEvent: {}
+[55.323558] (-) TimerEvent: {}
+[55.424293] (-) TimerEvent: {}
+[55.524997] (-) TimerEvent: {}
+[55.625689] (-) TimerEvent: {}
+[55.726373] (-) TimerEvent: {}
+[55.827063] (-) TimerEvent: {}
+[55.927750] (-) TimerEvent: {}
+[56.028450] (-) TimerEvent: {}
+[56.129172] (-) TimerEvent: {}
+[56.229866] (-) TimerEvent: {}
+[56.235368] (umrt-ros-poe-cam) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable mobilenet_node\x1b[0m\n'}
+[56.330044] (-) TimerEvent: {}
+[56.430764] (-) TimerEvent: {}
+[56.531499] (-) TimerEvent: {}
+[56.632251] (-) TimerEvent: {}
+[56.733054] (-) TimerEvent: {}
+[56.833794] (-) TimerEvent: {}
+[56.934518] (-) TimerEvent: {}
+[57.035247] (-) TimerEvent: {}
+[57.135985] (-) TimerEvent: {}
+[57.236727] (-) TimerEvent: {}
+[57.337421] (-) TimerEvent: {}
+[57.438123] (-) TimerEvent: {}
+[57.538815] (-) TimerEvent: {}
+[57.639488] (-) TimerEvent: {}
+[57.740151] (-) TimerEvent: {}
+[57.840844] (-) TimerEvent: {}
+[57.941537] (-) TimerEvent: {}
+[58.042245] (-) TimerEvent: {}
+[58.142963] (-) TimerEvent: {}
+[58.243643] (-) TimerEvent: {}
+[58.344347] (-) TimerEvent: {}
+[58.445099] (-) TimerEvent: {}
+[58.541604] (umrt-ros-poe-cam) StdoutLine: {'line': b'[100%] Built target mobilenet_node\n'}
+[58.545196] (-) TimerEvent: {}
+[58.569309] (umrt-ros-poe-cam) CommandEnded: {'returncode': 0}
+[58.571120] (umrt-ros-poe-cam) JobProgress: {'identifier': 'umrt-ros-poe-cam', 'progress': 'install'}
+[58.588642] (umrt-ros-poe-cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros_ws/workspace/build/umrt-ros-poe-cam'], 'cwd': '/ros_ws/workspace/build/umrt-ros-poe-cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARMCAM0', '/dev/video0'), ('ARMCAM1', ''), ('HOSTNAME', '0eaa03f60eba'), ('CAM1', ''), ('CAM2', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros_ws/workspace/install/umrt-arm-ros-firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros_ws'), ('ROUTE_POLICY', 'drop-default'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros_ws/workspace/install'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROVERCAM0', ''), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROVERCAM1', ''), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/dds-configs/fastdds-rover-hi.xml'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/ros_ws/workspace/install/umrt-serial-cam-ros:/ros_ws/workspace/install/umrt-ros-poe-cam:/ros_ws/workspace/install/umrt-localization-ros:/ros_ws/workspace/install/umrt-arm-ros-firmware:/opt/ros/humble'), ('FASTDDS_DEFAULT_PROFILES_FILE', '/dds-configs/fastdds-rover-hi.xml'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/ros_ws/workspace/build/umrt-ros-poe-cam'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_ws/workspace/install/umrt-serial-cam-ros:/ros_ws/workspace/install/umrt-ros-poe-cam:/ros_ws/workspace/install/umrt-localization-ros:/ros_ws/workspace/install/umrt-arm-ros-firmware:/opt/ros/humble')]), 'shell': False}
+[58.608945] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[58.609671] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params\n'}
+[58.609892] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera\n'}
+[58.610073] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/right.yaml\n'}
+[58.610296] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/color.yaml\n'}
+[58.610454] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/left.yaml\n'}
+[58.610603] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/resources\n'}
+[58.610851] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/resources/mobilenet-ssd_openvino_2021.2_6shave.blob\n'}
+[58.611008] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch\n'}
+[58.611152] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/transport.launch.py\n'}
+[58.611293] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/example.launch.py\n'}
+[58.611431] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/example.yaml\n'}
+[58.611569] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/mobile_publisher.launch.py\n'}
+[58.611709] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/lib/umrt-ros-poe-cam/republisher_node\n'}
+[58.611854] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Installing: /ros_ws/workspace/install/umrt-ros-poe-cam/lib/umrt-ros-poe-cam/mobilenet_node\n'}
+[58.622683] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Set runtime path of "/ros_ws/workspace/install/umrt-ros-poe-cam/lib/umrt-ros-poe-cam/mobilenet_node" to ""\n'}
+[58.623233] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/ament_index/resource_index/package_run_dependencies/umrt-ros-poe-cam\n'}
+[58.623551] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/ament_index/resource_index/parent_prefix_path/umrt-ros-poe-cam\n'}
+[58.623827] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/ament_prefix_path.sh\n'}
+[58.623989] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/ament_prefix_path.dsv\n'}
+[58.624130] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/path.sh\n'}
+[58.624353] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/path.dsv\n'}
+[58.624599] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.bash\n'}
+[58.624897] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.sh\n'}
+[58.625046] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.zsh\n'}
+[58.625184] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.dsv\n'}
+[58.625353] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Installing: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.dsv\n'}
+[58.625491] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/ament_index/resource_index/packages/umrt-ros-poe-cam\n'}
+[58.625629] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/cmake/umrt-ros-poe-camConfig.cmake\n'}
+[58.625783] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/cmake/umrt-ros-poe-camConfig-version.cmake\n'}
+[58.625926] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/workspace/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.xml\n'}
+[58.629978] (umrt-ros-poe-cam) CommandEnded: {'returncode': 0}
+[58.645329] (-) TimerEvent: {}
+[58.711205] (umrt-ros-poe-cam) JobEnded: {'identifier': 'umrt-ros-poe-cam', 'rc': 0}
+[58.713122] (-) EventReactorShutdown: {}

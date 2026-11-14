@@ -1,0 +1,83 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/signals2/deconstruct.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/signals2.hpp:15[m[K,
+                 from [01m[K/opt/umrt-arm-firmware-lib/include/umrt-arm-firmware-lib/arduino_stepper_controller.hpp:9[m[K,
+                 from [01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/include/umrt-arm-ros-firmware/arduino_stepper_adapter.hpp:11[m[K,
+                 from [01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/arduino_stepper_adapter.cpp:1[m[K:
+[01m[K/usr/include/boost/timer.hpp:21:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use the facilities in <boost/timer/timer.hpp> instead.[m[K’
+   21 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K( "the facilities in <boost/timer/timer.hpp>" )
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/mks_stepper_adapter.cpp:[m[K In member function ‘[01m[Kvirtual void MksStepperAdapter::connect(std::string, int)[m[K’:
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/mks_stepper_adapter.cpp:34:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 | void MksStepperAdapter::connect([01;35m[Kconst std::string device[m[K, const int baud_rate) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/mks_stepper_adapter.cpp:34:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbaud_rate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 | void MksStepperAdapter::connect(const std::string device, [01;35m[Kconst int baud_rate[m[K) {}
+      |                                                           [01;35m[K~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/signals2/deconstruct.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/signals2.hpp:15[m[K,
+                 from [01m[K/opt/umrt-arm-firmware-lib/include/umrt-arm-firmware-lib/arduino_stepper_controller.hpp:9[m[K,
+                 from [01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/include/umrt-arm-ros-firmware/arduino_stepper_adapter.hpp:11[m[K,
+                 from [01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/robotic_arm_control_system.cpp:16[m[K:
+[01m[K/usr/include/boost/timer.hpp:21:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use the facilities in <boost/timer/timer.hpp> instead.[m[K’
+   21 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K( "the facilities in <boost/timer/timer.hpp>" )
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn umrt_arm_ros_firmware::DrivetrainControlSystem::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:94:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   94 |             [01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn umrt_arm_ros_firmware::DrivetrainControlSystem::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:107:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  107 |             [01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn umrt_arm_ros_firmware::DrivetrainControlSystem::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:120:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  120 |             [01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn umrt_arm_ros_firmware::DrivetrainControlSystem::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:130:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  130 |             [01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type umrt_arm_ros_firmware::DrivetrainControlSystem::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:140:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  140 |             [01;35m[Kconst rclcpp::Time& time[m[K, const rclcpp::Duration& period
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:140:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  140 |             const rclcpp::Time& time, [01;35m[Kconst rclcpp::Duration& period[m[K
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type umrt_arm_ros_firmware::DrivetrainControlSystem::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:147:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  147 |             [01;35m[Kconst rclcpp::Time& time[m[K, const rclcpp::Duration& period
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:147:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  147 |             const rclcpp::Time& time, [01;35m[Kconst rclcpp::Duration& period[m[K
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/robotic_arm_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type umrt_arm_ros_firmware::RoboticArmControlSystem::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/ros_ws/workspace/src/umrt-arm-ros-firmware/hardware/robotic_arm_control_system.cpp:240:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  240 |             const rclcpp::Time& /*time*/, [01;35m[Kconst rclcpp::Duration& period[m[K
+      |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K

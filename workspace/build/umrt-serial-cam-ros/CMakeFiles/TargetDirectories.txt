@@ -1,0 +1,10 @@
+/ros_ws/workspace/build/umrt-serial-cam-ros/CMakeFiles/uninstall.dir
+/ros_ws/workspace/build/umrt-serial-cam-ros/CMakeFiles/umrt-serial-cam-ros_uninstall.dir
+/ros_ws/workspace/build/umrt-serial-cam-ros/CMakeFiles/umrt-serial-cam-ros.dir
+/ros_ws/workspace/build/umrt-serial-cam-ros/CMakeFiles/test.dir
+/ros_ws/workspace/build/umrt-serial-cam-ros/CMakeFiles/edit_cache.dir
+/ros_ws/workspace/build/umrt-serial-cam-ros/CMakeFiles/rebuild_cache.dir
+/ros_ws/workspace/build/umrt-serial-cam-ros/CMakeFiles/list_install_components.dir
+/ros_ws/workspace/build/umrt-serial-cam-ros/CMakeFiles/install.dir
+/ros_ws/workspace/build/umrt-serial-cam-ros/CMakeFiles/install/local.dir
+/ros_ws/workspace/build/umrt-serial-cam-ros/CMakeFiles/install/strip.dir

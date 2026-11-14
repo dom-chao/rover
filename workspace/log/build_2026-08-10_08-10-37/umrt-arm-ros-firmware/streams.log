@@ -1,0 +1,6 @@
+[0.057s] Invoking command in '/ros_ws/workspace/build/umrt-arm-ros-firmware': /usr/bin/cmake --build /ros_ws/workspace/build/umrt-arm-ros-firmware -- -j8 -l8
+[0.083s] [0mCMake Error: The current CMakeCache.txt directory /ros_ws/workspace/build/umrt-arm-ros-firmware/CMakeCache.txt is different than the directory /ros_ws/build/umrt-arm-ros-firmware where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.104s] [0mCMake Error: The source directory "/ros_ws/src/umrt-arm-ros-firmware" does not exist.
+[0.104s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.107s] gmake: *** [Makefile:402: cmake_check_build_system] Error 1
+[0.117s] Invoked command in '/ros_ws/workspace/build/umrt-arm-ros-firmware' returned '2': /usr/bin/cmake --build /ros_ws/workspace/build/umrt-arm-ros-firmware -- -j8 -l8

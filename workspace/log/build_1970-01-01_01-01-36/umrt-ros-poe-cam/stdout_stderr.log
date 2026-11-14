@@ -1,0 +1,5 @@
+[0mCMake Error: The current CMakeCache.txt directory /ros_ws/build/umrt-ros-poe-cam/CMakeCache.txt is different than the directory /ros_ws/workspace/build/umrt-ros-poe-cam where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+gmake: Warning: File 'Makefile' has modification time 1786345780 s in the future
+[0mCMake Error: The source directory "/ros_ws/workspace/src/umrt-ros-poe-cam" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:362: cmake_check_build_system] Error 1

@@ -1,0 +1,2 @@
+source;share/umrt-serial-cam-ros/environment/ament_prefix_path.sh
+source;share/umrt-serial-cam-ros/environment/path.sh

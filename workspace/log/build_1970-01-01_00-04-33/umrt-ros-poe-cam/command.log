@@ -1,0 +1,2 @@
+Invoking command in '/ros_ws/build/umrt-ros-poe-cam': /usr/bin/cmake --build /ros_ws/build/umrt-ros-poe-cam -- -j8 -l8
+Invoked command in '/ros_ws/build/umrt-ros-poe-cam' returned '2': /usr/bin/cmake --build /ros_ws/build/umrt-ros-poe-cam -- -j8 -l8

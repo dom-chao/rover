@@ -1,0 +1,190 @@
+-- Found hardware_interface: 2.54.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+-- Found ros2_j1939_babbler_msgs: 0.0.0 (/opt/ros/humble/share/ros2_j1939_babbler_msgs/cmake)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: log log_setup filesystem 
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+-- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ros_ws/build/umrt-arm-ros-firmware
+[35m[1mConsolidate compiler generated dependencies of target umrt-arm-ros-firmware[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/umrt-arm-ros-firmware.dir/hardware/rover_control_system.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/umrt-arm-ros-firmware.dir/hardware/stepper_adapter.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/umrt-arm-ros-firmware.dir/hardware/mks_stepper_adapter.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/umrt-arm-ros-firmware.dir/hardware/arduino_stepper_adapter.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/umrt-arm-ros-firmware.dir/hardware/wheel_adapter.cpp.o[0m
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[ 85%] [32mBuilding CXX object CMakeFiles/umrt-arm-ros-firmware.dir/hardware/robotic_arm_control_system.cpp.o[0m
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/signals2/deconstruct.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/signals2.hpp:15[m[K,
+                 from [01m[K/opt/umrt-arm-firmware-lib/include/umrt-arm-firmware-lib/arduino_stepper_controller.hpp:9[m[K,
+                 from [01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/include/umrt-arm-ros-firmware/arduino_stepper_adapter.hpp:11[m[K,
+                 from [01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/arduino_stepper_adapter.cpp:1[m[K:
+[01m[K/usr/include/boost/timer.hpp:21:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use the facilities in <boost/timer/timer.hpp> instead.[m[K’
+   21 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K( "the facilities in <boost/timer/timer.hpp>" )
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/mks_stepper_adapter.cpp:[m[K In member function ‘[01m[Kvirtual void MksStepperAdapter::connect(std::string, int)[m[K’:
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/mks_stepper_adapter.cpp:34:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdevice[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 | void MksStepperAdapter::connect([01;35m[Kconst std::string device[m[K, const int baud_rate) {}
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/mks_stepper_adapter.cpp:34:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbaud_rate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 | void MksStepperAdapter::connect(const std::string device, [01;35m[Kconst int baud_rate[m[K) {}
+      |                                                           [01;35m[K~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/signals2/deconstruct.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/signals2.hpp:15[m[K,
+                 from [01m[K/opt/umrt-arm-firmware-lib/include/umrt-arm-firmware-lib/arduino_stepper_controller.hpp:9[m[K,
+                 from [01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/include/umrt-arm-ros-firmware/arduino_stepper_adapter.hpp:11[m[K,
+                 from [01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/robotic_arm_control_system.cpp:16[m[K:
+[01m[K/usr/include/boost/timer.hpp:21:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use the facilities in <boost/timer/timer.hpp> instead.[m[K’
+   21 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K( "the facilities in <boost/timer/timer.hpp>" )
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn umrt_arm_ros_firmware::DrivetrainControlSystem::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:94:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   94 |             [01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn umrt_arm_ros_firmware::DrivetrainControlSystem::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:107:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  107 |             [01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn umrt_arm_ros_firmware::DrivetrainControlSystem::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:120:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  120 |             [01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn umrt_arm_ros_firmware::DrivetrainControlSystem::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:130:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  130 |             [01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type umrt_arm_ros_firmware::DrivetrainControlSystem::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:140:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  140 |             [01;35m[Kconst rclcpp::Time& time[m[K, const rclcpp::Duration& period
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:140:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  140 |             const rclcpp::Time& time, [01;35m[Kconst rclcpp::Duration& period[m[K
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type umrt_arm_ros_firmware::DrivetrainControlSystem::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:147:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  147 |             [01;35m[Kconst rclcpp::Time& time[m[K, const rclcpp::Duration& period
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:147:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  147 |             const rclcpp::Time& time, [01;35m[Kconst rclcpp::Duration& period[m[K
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/robotic_arm_control_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type umrt_arm_ros_firmware::RoboticArmControlSystem::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/ros_ws/src/umrt-arm-ros-firmware/hardware/robotic_arm_control_system.cpp:240:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  240 |             const rclcpp::Time& /*time*/, [01;35m[Kconst rclcpp::Duration& period[m[K
+      |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libumrt-arm-ros-firmware.so[0m
+[100%] Built target umrt-arm-ros-firmware
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/urdf/prairie_pioneer.materials.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/urdf/prairie_pioneer_description.urdf.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/rviz/prairie_pioneer.rviz
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/rviz/prairie_pioneer_view.rviz
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/inertial_macros.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/project_perry.materials.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/project_perry_description.urdf.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/rover.materials.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/rover_description.urdf.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/project_perry.rviz
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/project_perry_view.rviz
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/rover.rviz
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/rover_view.rviz
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware//umrt-arm-ros-firmware.xml
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/CMakeLists.txt
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/package.xml
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/rviz/prairie_pioneer.rviz
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/rviz/prairie_pioneer_view.rviz
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/urdf/prairie_pioneer.materials.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/urdf/prairie_pioneer_description.urdf.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/project_perry.rviz
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/project_perry_view.rviz
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/rover.rviz
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/rover_view.rviz
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/inertial_macros.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/project_perry.materials.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/project_perry_description.urdf.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/rover.materials.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/rover_description.urdf.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/arduino_stepper_adapter.hpp
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/mks_stepper_adapter.hpp
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/robotic_arm_control_system.hpp
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/rover_control_system.hpp
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/stepper_adapter.hpp
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/visibility_control.h
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/wheel_adapter.hpp
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/launch/view_robot.launch.py
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control/prairie_pioneer.ros2_control.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control/project_perry.ros2_control.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control/rover.ros2_control.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/urdf/prairie_pioneer.urdf.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/urdf/project_perry.urdf.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/urdf/rover.urdf.xacro
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/launch/joy.launch.py
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/launch/prairie_pioneer.launch.py
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/launch/project_perry.launch.py
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/launch/rover_drivetrain.launch.py
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/config/joystick.yaml
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/config/umrt_arm_controllers.yaml
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/config/umrt_rover_controller.yaml
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/environment/library_path.sh
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/environment/library_path.dsv
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/ament_index/resource_index/package_run_dependencies/umrt-arm-ros-firmware
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/ament_index/resource_index/parent_prefix_path/umrt-arm-ros-firmware
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/environment/ament_prefix_path.sh
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/environment/ament_prefix_path.dsv
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/environment/path.sh
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/environment/path.dsv
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/local_setup.bash
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/local_setup.sh
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/local_setup.zsh
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/local_setup.dsv
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.dsv
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/ament_index/resource_index/packages/umrt-arm-ros-firmware
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/umrt-arm-ros-firmware
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/cmake/umrt-arm-ros-firmwareConfig.cmake
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/cmake/umrt-arm-ros-firmwareConfig-version.cmake
+-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.xml
+-- Installing: /ros_ws/install/umrt-arm-ros-firmware/lib/libumrt-arm-ros-firmware.so
+-- Set runtime path of "/ros_ws/install/umrt-arm-ros-firmware/lib/libumrt-arm-ros-firmware.so" to ""
+-- Up-to-date: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/cmake/export_umrt-arm-ros-firmwareExport.cmake
+-- Installing: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/cmake/export_umrt-arm-ros-firmwareExport-debug.cmake

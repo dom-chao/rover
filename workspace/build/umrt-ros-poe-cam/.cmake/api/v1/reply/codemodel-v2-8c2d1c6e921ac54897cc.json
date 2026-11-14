@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-64a6bba86a241b55635d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "umrt-ros-poe-cam",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mobilenet_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mobilenet_node-c96858ca89a34a671349.json",
+					"name" : "mobilenet_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "republisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-republisher_node-92aa87b73878e67fad7c.json",
+					"name" : "republisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "umrt-ros-poe-cam_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-umrt-ros-poe-cam_uninstall-b38b2e8f5b0585e7eed0.json",
+					"name" : "umrt-ros-poe-cam_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e833ea5bfd78916d08f8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros_ws/workspace/build/umrt-ros-poe-cam",
+		"source" : "/ros_ws/workspace/src/umrt-ros-poe-cam"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

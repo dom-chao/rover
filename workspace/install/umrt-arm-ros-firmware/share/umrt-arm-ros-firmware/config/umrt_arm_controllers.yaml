@@ -1,0 +1,30 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 10  # Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    arm_base_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+    gripper_controller:
+      type: position_controllers/JointGroupPositionController
+
+arm_base_controller:
+  ros__parameters:
+    joints:
+      - base_yaw_joint
+      - base_pitch_joint
+      - elbow_0_joint
+    
+gains:
+  ros__parameters:
+    base_yaw_joint_prop: {p: 10000, i: 1, d: 1000}
+    base_pitch_joint_prop: {p: 10000, i: 1, d: 1000}
+    elbow_0_joint_prop: {p: 10000, i: 1, d: 1000}
+
+gripper_controller:
+  ros__parameters:
+    joints:
+      - gripper

@@ -1,0 +1,3 @@
+source;share/umrt-arm-ros-firmware/environment/ament_prefix_path.sh
+source;share/umrt-arm-ros-firmware/environment/library_path.sh
+source;share/umrt-arm-ros-firmware/environment/path.sh

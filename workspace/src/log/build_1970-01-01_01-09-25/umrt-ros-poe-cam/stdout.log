@@ -1,0 +1,33 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- ------------------------------------------
+-- Depthai Bridge is being built using AMENT.
+-- ------------------------------------------
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found camera_info_manager: 3.1.13 (/opt/ros/humble/share/camera_info_manager/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found depthai_ros_msgs_v3: 3.3.0 (/opt/ros/humble/share/depthai_ros_msgs_v3/cmake)
+-- Found depthai_bridge_v3: 3.3.0 (/opt/ros/humble/share/depthai_bridge_v3/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found foxglove_msgs: 3.4.3 (/opt/ros/humble/share/foxglove_msgs/cmake)
+-- Found foxglove_compressed_video_transport: 3.0.3 (/opt/ros/humble/share/foxglove_compressed_video_transport/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ros_ws/src/build/umrt-ros-poe-cam
+[35m[1mConsolidate compiler generated dependencies of target republisher_node[0m
+[35m[1mConsolidate compiler generated dependencies of target mobilenet_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/republisher_node.dir/src/foxglove_republisher.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/republisher_node.dir/src/foxglove_republisher_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mobilenet_node.dir/src/mobilenet_publisher.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mobilenet_node.dir/src/mobilenet_publisher_node.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable republisher_node[0m
+[ 83%] Built target republisher_node

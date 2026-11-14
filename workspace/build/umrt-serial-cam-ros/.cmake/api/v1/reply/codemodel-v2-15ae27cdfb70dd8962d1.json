@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b84b0f9d3d5ccc43e598.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "umrt-serial-cam-ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "umrt-serial-cam-ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-umrt-serial-cam-ros-e0cd2d8d31504f303d08.json",
+					"name" : "umrt-serial-cam-ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "umrt-serial-cam-ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-umrt-serial-cam-ros_uninstall-895d913ad03ca62b50c4.json",
+					"name" : "umrt-serial-cam-ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a8ae296125b492ee5b97.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ros_ws/workspace/build/umrt-serial-cam-ros",
+		"source" : "/ros_ws/workspace/src/umrt-serial-cam-ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

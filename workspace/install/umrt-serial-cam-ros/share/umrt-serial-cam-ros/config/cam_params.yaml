@@ -1,0 +1,147 @@
+/arm0/arm_cam0:
+    ros__parameters:
+      # Camera Settings
+      device: /dev/cameras/ra_cam0
+      framerate: 15.0
+      io_method: "mmap"
+      frame_id: "armcam0"
+      pixel_format: "mjpeg2rgb"
+      # av_device_format: "YUV422P"
+      image_width: 640
+      image_height: 480
+      camera_name: "arm_cam0"
+      brightness: -1
+      contrast: -1
+      saturation: -1
+      sharpness: -1
+      gain: -1
+      #auto_white_balance: true
+      #white_balance: 4000
+      #autoexposure: true
+      #exposure: 100
+      #autofocus: false
+      #focus: -1
+
+      # Encoder Settings
+      image_raw: # high quality
+        ffmpeg:
+          encoding: "h264"
+          encoder: "libx264"
+          qmax: 31
+          bit_rate: 2000000  # required!
+          gop_size: 15
+          encoder_av_options:
+            preset: p1
+            tune: ll
+      image_raw.enable_pub_plugins: ["image_transport/ffmpeg", "image_transport/raw"]
+
+
+/arm1/arm_cam1:
+    ros__parameters:
+      # Camera Settings
+      device: /dev/cameras/ra_cam1
+      framerate: 15.0
+      io_method: "mmap"
+      frame_id: "armcam1"
+      pixel_format: "mjpeg2rgb"
+      # av_device_format: "YUV422P"
+      image_width: 640
+      image_height: 480
+      camera_name: "arm_cam1"
+      brightness: -1
+      contrast: -1
+      saturation: -1
+      sharpness: -1
+      gain: -1
+      #auto_white_balance: true
+      #white_balance: 4000
+      #autoexposure: true
+      #exposure: 100
+      #autofocus: false
+      #focus: -1
+
+      # Encoder Settings
+      image_raw: # high quality
+        ffmpeg:
+          qmax: 31
+          bit_rate: 2000000  # required!
+          gop_size: 15
+          encoder: "h264_nvenc"
+          encoder_av_options:
+            preset: p1
+            tune: ll
+      image_raw.enable_pub_plugins: ["image_transport/ffmpeg", "image_transport/raw"]
+
+
+/rover0/rover_cam0:
+    ros__parameters:
+      # Camera Settings
+      device: /dev/cameras/rover_cam0
+      framerate: 15.0
+      io_method: "mmap"
+      frame_id: "rovercam0"
+      pixel_format: "mjpeg2rgb"
+      #av_device_format: "YUV422P"
+      image_width: 640
+      image_height: 480
+      camera_name: "rover_cam0"
+      brightness: -1
+      contrast: -1
+      saturation: -1
+      sharpness: -1
+      gain: -1
+      #auto_white_balance: true
+      #white_balance: 4000
+      #autoexposure: true
+      #exposure: 100
+      #autofocus: false
+      #focus: -1
+
+      # Encoder Settings
+      image_raw: # high quality
+        ffmpeg:
+          qmax: 31
+          bit_rate: 2000000  # required!
+          gop_size: 15
+          encoder: "h264_nvenc"
+          encoder_av_options:
+            preset: p1
+            tune: ll
+      image_raw.enable_pub_plugins: ["image_transport/ffmpeg", "image_transport/raw"]
+
+
+/rover1/rover_cam1:
+    ros__parameters:
+      # Camera Settings
+      device: /dev/cameras/rover_cam1
+      framerate: 15.0
+      io_method: "mmap"
+      frame_id: "rovercam1"
+      pixel_format: "mjpeg2rgb"
+      #av_device_format: "YUV422P"
+      image_width: 640
+      image_height: 480
+      camera_name: "rover_cam1"
+      brightness: -1
+      contrast: -1
+      saturation: -1
+      sharpness: -1
+      gain: -1
+      # auto_white_balance: true
+      # white_balance: 4000
+      # autoexposure: true
+      # exposure: 100
+      # autofocus: false
+      # focus: -1
+
+      # Encoder Settings
+      image_raw: # high quality
+        ffmpeg:
+          qmax: 31
+          bit_rate: 2000000  # required!
+          gop_size: 15
+          encoder: "h264_nvenc"
+          encoder_av_options:
+            preset: p1
+            tune: ll
+      image_raw.enable_pub_plugins: ["image_transport/ffmpeg", "image_transport/raw"]

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>umrt-serial-cam-ros</name>
+  <version>0.0.2</version> <!-- Version number parsed from version file, replaced here by CMake -->
+  <description>UMRT Serial Camera ROS Package</description>
+  <maintainer email="158010272+edcela@users.noreply.github.com">edcel</maintainer>
+  <license>MPL-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- Package dependencies -->
+  <depend>v4l2_camera</depend>
+  <depend>image_transport_plugins</depend>
+  <depend>rmw_fastrtps_cpp</depend>
+  <depend>image_transport</depend>
+  <depend>ffmpeg_image_transport</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

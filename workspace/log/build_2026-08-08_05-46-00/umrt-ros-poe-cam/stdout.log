@@ -1,0 +1,29 @@
+[ 50%] Built target republisher_node
+[100%] Built target mobilenet_node
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/color.yaml
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/left.yaml
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/right.yaml
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/resources/mobilenet-ssd_openvino_2021.2_6shave.blob
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/example.launch.py
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/example.yaml
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/mobile_publisher.launch.py
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/transport.launch.py
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/lib/umrt-ros-poe-cam/republisher_node
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/lib/umrt-ros-poe-cam/mobilenet_node
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/ament_index/resource_index/package_run_dependencies/umrt-ros-poe-cam
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/ament_index/resource_index/parent_prefix_path/umrt-ros-poe-cam
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/path.sh
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/path.dsv
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.bash
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.sh
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.zsh
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.dsv
+-- Symlinking: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.dsv
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/ament_index/resource_index/packages/umrt-ros-poe-cam
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/cmake/umrt-ros-poe-camConfig.cmake
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/cmake/umrt-ros-poe-camConfig-version.cmake
+-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.xml

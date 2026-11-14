@@ -1,0 +1,355 @@
+[0.400s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.400s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8fb780d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8fb43430>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8fb43430>>, mixin_verb=('build',))
+[0.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.776s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.778s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.779s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.779s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/ros_ws'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore_ament_install'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_pkg']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_pkg'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_meta']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_meta'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ros']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ros'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['cmake', 'python']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'cmake'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['python_setup_py']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python_setup_py'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-arm-ros-firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-arm-ros-firmware) by extension 'ignore'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-arm-ros-firmware) by extension 'ignore_ament_install'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-arm-ros-firmware) by extensions ['colcon_pkg']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-arm-ros-firmware) by extension 'colcon_pkg'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-arm-ros-firmware) by extensions ['colcon_meta']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-arm-ros-firmware) by extension 'colcon_meta'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-arm-ros-firmware) by extensions ['ros']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-arm-ros-firmware) by extension 'ros'
+[0.822s] DEBUG:colcon.colcon_core.package_identification:Package 'src/umrt-arm-ros-firmware' with type 'ros.ament_cmake' and name 'umrt-arm-ros-firmware'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-localization-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-localization-ros) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-localization-ros) by extension 'ignore_ament_install'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-localization-ros) by extensions ['colcon_pkg']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-localization-ros) by extension 'colcon_pkg'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-localization-ros) by extensions ['colcon_meta']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-localization-ros) by extension 'colcon_meta'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-localization-ros) by extensions ['ros']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-localization-ros) by extension 'ros'
+[0.825s] DEBUG:colcon.colcon_core.package_identification:Package 'src/umrt-localization-ros' with type 'ros.ament_cmake' and name 'umrt-localization-ros'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-ros-poe-cam) by extensions ['ignore', 'ignore_ament_install']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-ros-poe-cam) by extension 'ignore'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-ros-poe-cam) by extension 'ignore_ament_install'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-ros-poe-cam) by extensions ['colcon_pkg']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-ros-poe-cam) by extension 'colcon_pkg'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-ros-poe-cam) by extensions ['colcon_meta']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-ros-poe-cam) by extension 'colcon_meta'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-ros-poe-cam) by extensions ['ros']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-ros-poe-cam) by extension 'ros'
+[0.830s] DEBUG:colcon.colcon_core.package_identification:Package 'src/umrt-ros-poe-cam' with type 'ros.ament_cmake' and name 'umrt-ros-poe-cam'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-serial-cam-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-serial-cam-ros) by extension 'ignore'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-serial-cam-ros) by extension 'ignore_ament_install'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-serial-cam-ros) by extensions ['colcon_pkg']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-serial-cam-ros) by extension 'colcon_pkg'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-serial-cam-ros) by extensions ['colcon_meta']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-serial-cam-ros) by extension 'colcon_meta'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-serial-cam-ros) by extensions ['ros']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/umrt-serial-cam-ros) by extension 'ros'
+[0.834s] DEBUG:colcon.colcon_core.package_identification:Package 'src/umrt-serial-cam-ros' with type 'ros.ament_cmake' and name 'umrt-serial-cam-ros'
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'umrt-arm-ros-firmware' build argument 'cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'umrt-arm-ros-firmware' build argument 'cmake_target' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'umrt-arm-ros-firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'umrt-arm-ros-firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'umrt-arm-ros-firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'umrt-arm-ros-firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'umrt-arm-ros-firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'umrt-arm-ros-firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'umrt-arm-ros-firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.887s] DEBUG:colcon.colcon_core.verb:Building package 'umrt-arm-ros-firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros_ws/build/umrt-arm-ros-firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros_ws/install/umrt-arm-ros-firmware', 'merge_install': False, 'path': '/ros_ws/src/umrt-arm-ros-firmware', 'symlink_install': False, 'test_result_base': None}
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'umrt-localization-ros' build argument 'cmake_args' from command line to 'None'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'umrt-localization-ros' build argument 'cmake_target' from command line to 'None'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'umrt-localization-ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'umrt-localization-ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'umrt-localization-ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'umrt-localization-ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.887s] Level 5:colcon.colcon_core.verb:set package 'umrt-localization-ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'umrt-localization-ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'umrt-localization-ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.888s] DEBUG:colcon.colcon_core.verb:Building package 'umrt-localization-ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros_ws/build/umrt-localization-ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros_ws/install/umrt-localization-ros', 'merge_install': False, 'path': '/ros_ws/src/umrt-localization-ros', 'symlink_install': False, 'test_result_base': None}
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'umrt-ros-poe-cam' build argument 'cmake_args' from command line to 'None'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'umrt-ros-poe-cam' build argument 'cmake_target' from command line to 'None'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'umrt-ros-poe-cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'umrt-ros-poe-cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'umrt-ros-poe-cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.888s] Level 5:colcon.colcon_core.verb:set package 'umrt-ros-poe-cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.889s] Level 5:colcon.colcon_core.verb:set package 'umrt-ros-poe-cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.889s] Level 5:colcon.colcon_core.verb:set package 'umrt-ros-poe-cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.889s] Level 5:colcon.colcon_core.verb:set package 'umrt-ros-poe-cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.889s] DEBUG:colcon.colcon_core.verb:Building package 'umrt-ros-poe-cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros_ws/build/umrt-ros-poe-cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros_ws/install/umrt-ros-poe-cam', 'merge_install': False, 'path': '/ros_ws/src/umrt-ros-poe-cam', 'symlink_install': False, 'test_result_base': None}
+[0.889s] Level 5:colcon.colcon_core.verb:set package 'umrt-serial-cam-ros' build argument 'cmake_args' from command line to 'None'
+[0.889s] Level 5:colcon.colcon_core.verb:set package 'umrt-serial-cam-ros' build argument 'cmake_target' from command line to 'None'
+[0.889s] Level 5:colcon.colcon_core.verb:set package 'umrt-serial-cam-ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.889s] Level 5:colcon.colcon_core.verb:set package 'umrt-serial-cam-ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.889s] Level 5:colcon.colcon_core.verb:set package 'umrt-serial-cam-ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.889s] Level 5:colcon.colcon_core.verb:set package 'umrt-serial-cam-ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'umrt-serial-cam-ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'umrt-serial-cam-ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.890s] Level 5:colcon.colcon_core.verb:set package 'umrt-serial-cam-ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.890s] DEBUG:colcon.colcon_core.verb:Building package 'umrt-serial-cam-ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros_ws/build/umrt-serial-cam-ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros_ws/install/umrt-serial-cam-ros', 'merge_install': False, 'path': '/ros_ws/src/umrt-serial-cam-ros', 'symlink_install': False, 'test_result_base': None}
+[0.890s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.892s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.893s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ros_ws/src/umrt-arm-ros-firmware' with build type 'ament_cmake'
+[0.893s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ros_ws/src/umrt-arm-ros-firmware'
+[0.900s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.901s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.901s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.913s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ros_ws/src/umrt-localization-ros' with build type 'ament_cmake'
+[0.913s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ros_ws/src/umrt-localization-ros'
+[0.914s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.914s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.921s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ros_ws/src/umrt-ros-poe-cam' with build type 'ament_cmake'
+[0.921s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ros_ws/src/umrt-ros-poe-cam'
+[0.921s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.922s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.929s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ros_ws/src/umrt-serial-cam-ros' with build type 'ament_cmake'
+[0.930s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ros_ws/src/umrt-serial-cam-ros'
+[0.930s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.931s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/build/umrt-arm-ros-firmware': /usr/bin/cmake --build /ros_ws/build/umrt-arm-ros-firmware -- -j8 -l8
+[0.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/build/umrt-localization-ros': /usr/bin/cmake --build /ros_ws/build/umrt-localization-ros -- -j8 -l8
+[0.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/build/umrt-ros-poe-cam': /usr/bin/cmake --build /ros_ws/build/umrt-ros-poe-cam -- -j8 -l8
+[0.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/build/umrt-serial-cam-ros': /usr/bin/cmake --build /ros_ws/build/umrt-serial-cam-ros -- -j8 -l8
+[1.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/build/umrt-localization-ros' returned '0': /usr/bin/cmake --build /ros_ws/build/umrt-localization-ros -- -j8 -l8
+[1.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/build/umrt-localization-ros': /usr/bin/cmake --install /ros_ws/build/umrt-localization-ros
+[1.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/build/umrt-serial-cam-ros' returned '0': /usr/bin/cmake --build /ros_ws/build/umrt-serial-cam-ros -- -j8 -l8
+[1.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/build/umrt-serial-cam-ros': /usr/bin/cmake --install /ros_ws/build/umrt-serial-cam-ros
+[1.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/build/umrt-ros-poe-cam' returned '0': /usr/bin/cmake --build /ros_ws/build/umrt-ros-poe-cam -- -j8 -l8
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/build/umrt-ros-poe-cam': /usr/bin/cmake --install /ros_ws/build/umrt-ros-poe-cam
+[1.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(umrt-localization-ros)
+[1.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/build/umrt-localization-ros' returned '0': /usr/bin/cmake --install /ros_ws/build/umrt-localization-ros
+[1.276s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros' for CMake module files
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros' for CMake config files
+[1.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('umrt-localization-ros', 'cmake_prefix_path')
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/hook/cmake_prefix_path.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/hook/cmake_prefix_path.dsv'
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/hook/cmake_prefix_path.sh'
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros/lib'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros/bin'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros/lib/pkgconfig/umrt-localization-ros.pc'
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros/lib/python3.10/site-packages'
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros/bin'
+[1.333s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.ps1'
+[1.338s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.dsv'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.sh'
+[1.343s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.bash'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.zsh'
+[1.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/install/umrt-localization-ros/share/colcon-core/packages/umrt-localization-ros)
+[1.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(umrt-localization-ros)
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros' for CMake module files
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros' for CMake config files
+[1.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('umrt-localization-ros', 'cmake_prefix_path')
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/hook/cmake_prefix_path.ps1'
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/hook/cmake_prefix_path.dsv'
+[1.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/hook/cmake_prefix_path.sh'
+[1.359s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros/lib'
+[1.359s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros/bin'
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros/lib/pkgconfig/umrt-localization-ros.pc'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros/lib/python3.10/site-packages'
+[1.362s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-localization-ros/bin'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.ps1'
+[1.364s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.dsv'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.sh'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.bash'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.zsh'
+[1.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/install/umrt-localization-ros/share/colcon-core/packages/umrt-localization-ros)
+[1.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(umrt-serial-cam-ros)
+[1.374s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros' for CMake module files
+[1.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/build/umrt-serial-cam-ros' returned '0': /usr/bin/cmake --install /ros_ws/build/umrt-serial-cam-ros
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros' for CMake config files
+[1.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('umrt-serial-cam-ros', 'cmake_prefix_path')
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/hook/cmake_prefix_path.ps1'
+[1.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/hook/cmake_prefix_path.dsv'
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/hook/cmake_prefix_path.sh'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros/lib'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros/bin'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros/lib/pkgconfig/umrt-serial-cam-ros.pc'
+[1.383s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros/lib/python3.10/site-packages'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros/bin'
+[1.385s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/package.ps1'
+[1.386s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/package.dsv'
+[1.388s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/package.sh'
+[1.389s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/package.bash'
+[1.390s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/package.zsh'
+[1.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/install/umrt-serial-cam-ros/share/colcon-core/packages/umrt-serial-cam-ros)
+[1.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(umrt-serial-cam-ros)
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros' for CMake module files
+[1.394s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros' for CMake config files
+[1.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('umrt-serial-cam-ros', 'cmake_prefix_path')
+[1.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/hook/cmake_prefix_path.ps1'
+[1.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/hook/cmake_prefix_path.dsv'
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/hook/cmake_prefix_path.sh'
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros/lib'
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros/bin'
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros/lib/pkgconfig/umrt-serial-cam-ros.pc'
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros/lib/python3.10/site-packages'
+[1.400s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-serial-cam-ros/bin'
+[1.400s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/package.ps1'
+[1.402s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/package.dsv'
+[1.403s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/package.sh'
+[1.404s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/package.bash'
+[1.405s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/package.zsh'
+[1.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/install/umrt-serial-cam-ros/share/colcon-core/packages/umrt-serial-cam-ros)
+[1.407s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(umrt-ros-poe-cam)
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam' for CMake module files
+[1.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/build/umrt-ros-poe-cam' returned '0': /usr/bin/cmake --install /ros_ws/build/umrt-ros-poe-cam
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam' for CMake config files
+[1.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('umrt-ros-poe-cam', 'cmake_prefix_path')
+[1.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/hook/cmake_prefix_path.ps1'
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/hook/cmake_prefix_path.dsv'
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/hook/cmake_prefix_path.sh'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam/lib'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam/bin'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam/lib/pkgconfig/umrt-ros-poe-cam.pc'
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam/lib/python3.10/site-packages'
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam/bin'
+[1.417s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.ps1'
+[1.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.dsv'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.sh'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.bash'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.zsh'
+[1.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/install/umrt-ros-poe-cam/share/colcon-core/packages/umrt-ros-poe-cam)
+[1.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(umrt-ros-poe-cam)
+[1.426s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam' for CMake module files
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam' for CMake config files
+[1.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('umrt-ros-poe-cam', 'cmake_prefix_path')
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/hook/cmake_prefix_path.ps1'
+[1.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/hook/cmake_prefix_path.dsv'
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/hook/cmake_prefix_path.sh'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam/lib'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam/bin'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam/lib/pkgconfig/umrt-ros-poe-cam.pc'
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam/lib/python3.10/site-packages'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-ros-poe-cam/bin'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.ps1'
+[1.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.dsv'
+[1.436s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.sh'
+[1.437s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.bash'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.zsh'
+[1.438s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/install/umrt-ros-poe-cam/share/colcon-core/packages/umrt-ros-poe-cam)
+[31.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/build/umrt-arm-ros-firmware' returned '0': /usr/bin/cmake --build /ros_ws/build/umrt-arm-ros-firmware -- -j8 -l8
+[31.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros_ws/build/umrt-arm-ros-firmware': /usr/bin/cmake --install /ros_ws/build/umrt-arm-ros-firmware
+[31.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(umrt-arm-ros-firmware)
+[31.602s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware' for CMake module files
+[31.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros_ws/build/umrt-arm-ros-firmware' returned '0': /usr/bin/cmake --install /ros_ws/build/umrt-arm-ros-firmware
+[31.605s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware' for CMake config files
+[31.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('umrt-arm-ros-firmware', 'cmake_prefix_path')
+[31.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/hook/cmake_prefix_path.ps1'
+[31.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/hook/cmake_prefix_path.dsv'
+[31.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/hook/cmake_prefix_path.sh'
+[31.614s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware/lib'
+[31.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('umrt-arm-ros-firmware', 'ld_library_path_lib')
+[31.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/hook/ld_library_path_lib.ps1'
+[31.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/hook/ld_library_path_lib.dsv'
+[31.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/hook/ld_library_path_lib.sh'
+[31.619s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware/bin'
+[31.620s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware/lib/pkgconfig/umrt-arm-ros-firmware.pc'
+[31.621s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware/lib/python3.10/site-packages'
+[31.622s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware/bin'
+[31.623s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.ps1'
+[31.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.dsv'
+[31.627s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.sh'
+[31.629s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.bash'
+[31.630s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.zsh'
+[31.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/install/umrt-arm-ros-firmware/share/colcon-core/packages/umrt-arm-ros-firmware)
+[31.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(umrt-arm-ros-firmware)
+[31.634s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware' for CMake module files
+[31.636s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware' for CMake config files
+[31.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('umrt-arm-ros-firmware', 'cmake_prefix_path')
+[31.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/hook/cmake_prefix_path.ps1'
+[31.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/hook/cmake_prefix_path.dsv'
+[31.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/hook/cmake_prefix_path.sh'
+[31.644s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware/lib'
+[31.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('umrt-arm-ros-firmware', 'ld_library_path_lib')
+[31.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/hook/ld_library_path_lib.ps1'
+[31.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/hook/ld_library_path_lib.dsv'
+[31.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/hook/ld_library_path_lib.sh'
+[31.649s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware/bin'
+[31.650s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware/lib/pkgconfig/umrt-arm-ros-firmware.pc'
+[31.651s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware/lib/python3.10/site-packages'
+[31.652s] Level 1:colcon.colcon_core.environment:checking '/ros_ws/install/umrt-arm-ros-firmware/bin'
+[31.653s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.ps1'
+[31.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.dsv'
+[31.658s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.sh'
+[31.660s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.bash'
+[31.661s] INFO:colcon.colcon_core.shell:Creating package script '/ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.zsh'
+[31.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros_ws/install/umrt-arm-ros-firmware/share/colcon-core/packages/umrt-arm-ros-firmware)
+[31.664s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[31.665s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[31.665s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[31.665s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[31.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[31.693s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[31.693s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.699s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[31.699s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.700s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros_ws/install/local_setup.ps1'
+[31.705s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros_ws/install/_local_setup_util_ps1.py'
+[31.711s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros_ws/install/setup.ps1'
+[31.716s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros_ws/install/local_setup.sh'
+[31.719s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros_ws/install/_local_setup_util_sh.py'
+[31.721s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros_ws/install/setup.sh'
+[31.726s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros_ws/install/local_setup.bash'
+[31.728s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros_ws/install/setup.bash'
+[31.732s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros_ws/install/local_setup.zsh'
+[31.734s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros_ws/install/setup.zsh'

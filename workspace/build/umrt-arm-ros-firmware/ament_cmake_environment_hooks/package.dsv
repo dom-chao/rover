@@ -1,0 +1,4 @@
+source;share/umrt-arm-ros-firmware/local_setup.bash
+source;share/umrt-arm-ros-firmware/local_setup.dsv
+source;share/umrt-arm-ros-firmware/local_setup.sh
+source;share/umrt-arm-ros-firmware/local_setup.zsh

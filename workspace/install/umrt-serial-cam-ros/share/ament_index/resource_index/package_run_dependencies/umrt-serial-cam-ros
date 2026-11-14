@@ -1,0 +1,1 @@
+rclcpp;rclcpp_lifecycle;v4l2_camera;image_transport_plugins;rmw_fastrtps_cpp;image_transport;ffmpeg_image_transport;sensor_msgs;std_srvs;ament_lint_auto;ament_lint_common

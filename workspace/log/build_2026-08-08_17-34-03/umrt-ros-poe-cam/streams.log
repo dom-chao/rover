@@ -1,0 +1,33 @@
+[0.043s] Invoking command in '/ros_ws/build/umrt-ros-poe-cam': /usr/bin/cmake --build /ros_ws/build/umrt-ros-poe-cam -- -j8 -l8
+[0.251s] [ 50%] Built target republisher_node
+[0.275s] [100%] Built target mobilenet_node
+[0.302s] Invoked command in '/ros_ws/build/umrt-ros-poe-cam' returned '0': /usr/bin/cmake --build /ros_ws/build/umrt-ros-poe-cam -- -j8 -l8
+[0.306s] Invoking command in '/ros_ws/build/umrt-ros-poe-cam': /usr/bin/cmake --install /ros_ws/build/umrt-ros-poe-cam
+[0.319s] -- Install configuration: "Debug"
+[0.320s] -- Execute custom install script
+[0.322s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/color.yaml
+[0.322s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/left.yaml
+[0.322s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/right.yaml
+[0.323s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/resources/mobilenet-ssd_openvino_2021.2_6shave.blob
+[0.324s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/example.launch.py
+[0.324s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/example.yaml
+[0.324s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/mobile_publisher.launch.py
+[0.325s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/transport.launch.py
+[0.326s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/lib/umrt-ros-poe-cam/republisher_node
+[0.326s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/lib/umrt-ros-poe-cam/mobilenet_node
+[0.327s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/ament_index/resource_index/package_run_dependencies/umrt-ros-poe-cam
+[0.327s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/ament_index/resource_index/parent_prefix_path/umrt-ros-poe-cam
+[0.328s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/ament_prefix_path.sh
+[0.328s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/ament_prefix_path.dsv
+[0.328s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/path.sh
+[0.329s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/path.dsv
+[0.329s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.bash
+[0.329s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.sh
+[0.330s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.zsh
+[0.330s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.dsv
+[0.330s] -- Symlinking: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.dsv
+[0.347s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/ament_index/resource_index/packages/umrt-ros-poe-cam
+[0.348s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/cmake/umrt-ros-poe-camConfig.cmake
+[0.348s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/cmake/umrt-ros-poe-camConfig-version.cmake
+[0.349s] -- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.xml
+[0.487s] Invoked command in '/ros_ws/build/umrt-ros-poe-cam' returned '0': /usr/bin/cmake --install /ros_ws/build/umrt-ros-poe-cam

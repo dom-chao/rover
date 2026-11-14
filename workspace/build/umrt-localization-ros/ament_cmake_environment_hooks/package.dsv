@@ -1,0 +1,4 @@
+source;share/umrt-localization-ros/local_setup.bash
+source;share/umrt-localization-ros/local_setup.dsv
+source;share/umrt-localization-ros/local_setup.sh
+source;share/umrt-localization-ros/local_setup.zsh

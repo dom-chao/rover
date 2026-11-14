@@ -1,0 +1,5 @@
+ros2 launch umrt-arm-ros-firmware rover_drivetrain.launch.py 
+
+ros2 run ros2_j1939_babbler static_bridge --ros-args --log-level DEBUG -p sensor_name:=umrt_ros_controller -p device:=0x80 -p can_interface:=can1
+
+ros2 launch ros2_socketcan socket_can_bridge.launch.xml interface:=can1 to_can_bus:=/to_can_bus

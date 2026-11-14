@@ -1,0 +1,566 @@
+[0.000000] (-) TimerEvent: {}
+[0.001189] (umrt-arm-ros-firmware) JobQueued: {'identifier': 'umrt-arm-ros-firmware', 'dependencies': OrderedDict()}
+[0.001456] (umrt-localization-ros) JobQueued: {'identifier': 'umrt-localization-ros', 'dependencies': OrderedDict()}
+[0.001785] (umrt-ros-poe-cam) JobQueued: {'identifier': 'umrt-ros-poe-cam', 'dependencies': OrderedDict()}
+[0.001896] (umrt-serial-cam-ros) JobQueued: {'identifier': 'umrt-serial-cam-ros', 'dependencies': OrderedDict()}
+[0.001987] (umrt-arm-ros-firmware) JobStarted: {'identifier': 'umrt-arm-ros-firmware'}
+[0.016709] (umrt-localization-ros) JobStarted: {'identifier': 'umrt-localization-ros'}
+[0.024404] (umrt-ros-poe-cam) JobStarted: {'identifier': 'umrt-ros-poe-cam'}
+[0.032572] (umrt-serial-cam-ros) JobStarted: {'identifier': 'umrt-serial-cam-ros'}
+[0.043310] (umrt-arm-ros-firmware) JobProgress: {'identifier': 'umrt-arm-ros-firmware', 'progress': 'cmake'}
+[0.044879] (umrt-arm-ros-firmware) JobProgress: {'identifier': 'umrt-arm-ros-firmware', 'progress': 'build'}
+[0.046206] (umrt-arm-ros-firmware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros_ws/build/umrt-arm-ros-firmware', '--', '-j8', '-l8'], 'cwd': '/ros_ws/build/umrt-arm-ros-firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARMCAM0', ''), ('ARMCAM1', ''), ('HOSTNAME', 'umrt-rover'), ('CAM1', ''), ('CAM2', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('FASTDDS_BUILTIN_TRANSPORTS', 'UDPv4'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROVERCAM0', '/dev/video0'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROVERCAM1', ''), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/ros_ws/build/umrt-arm-ros-firmware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.052876] (umrt-localization-ros) JobProgress: {'identifier': 'umrt-localization-ros', 'progress': 'cmake'}
+[0.054309] (umrt-localization-ros) JobProgress: {'identifier': 'umrt-localization-ros', 'progress': 'build'}
+[0.055073] (umrt-localization-ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros_ws/build/umrt-localization-ros', '--', '-j8', '-l8'], 'cwd': '/ros_ws/build/umrt-localization-ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARMCAM0', ''), ('ARMCAM1', ''), ('HOSTNAME', 'umrt-rover'), ('CAM1', ''), ('CAM2', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('FASTDDS_BUILTIN_TRANSPORTS', 'UDPv4'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROVERCAM0', '/dev/video0'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROVERCAM1', ''), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/ros_ws/build/umrt-localization-ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.059494] (umrt-ros-poe-cam) JobProgress: {'identifier': 'umrt-ros-poe-cam', 'progress': 'cmake'}
+[0.061494] (umrt-ros-poe-cam) JobProgress: {'identifier': 'umrt-ros-poe-cam', 'progress': 'build'}
+[0.062219] (umrt-ros-poe-cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros_ws/build/umrt-ros-poe-cam', '--', '-j8', '-l8'], 'cwd': '/ros_ws/build/umrt-ros-poe-cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARMCAM0', ''), ('ARMCAM1', ''), ('HOSTNAME', 'umrt-rover'), ('CAM1', ''), ('CAM2', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('FASTDDS_BUILTIN_TRANSPORTS', 'UDPv4'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROVERCAM0', '/dev/video0'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROVERCAM1', ''), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/ros_ws/build/umrt-ros-poe-cam'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.074912] (umrt-serial-cam-ros) JobProgress: {'identifier': 'umrt-serial-cam-ros', 'progress': 'cmake'}
+[0.076473] (umrt-serial-cam-ros) JobProgress: {'identifier': 'umrt-serial-cam-ros', 'progress': 'build'}
+[0.077143] (umrt-serial-cam-ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros_ws/build/umrt-serial-cam-ros', '--', '-j8', '-l8'], 'cwd': '/ros_ws/build/umrt-serial-cam-ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARMCAM0', ''), ('ARMCAM1', ''), ('HOSTNAME', 'umrt-rover'), ('CAM1', ''), ('CAM2', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('FASTDDS_BUILTIN_TRANSPORTS', 'UDPv4'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROVERCAM0', '/dev/video0'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROVERCAM1', ''), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/ros_ws/build/umrt-serial-cam-ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099173] (-) TimerEvent: {}
+[0.118659] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found hardware_interface: 2.54.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.146646] (umrt-localization-ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target heading_node\x1b[0m\n'}
+[0.199385] (-) TimerEvent: {}
+[0.201210] (umrt-serial-cam-ros) StdoutLine: {'line': b'[100%] Built target umrt-serial-cam-ros\n'}
+[0.201868] (umrt-ros-poe-cam) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking CXX executable republisher_node\x1b[0m\n'}
+[0.202156] (umrt-localization-ros) StdoutLine: {'line': b'[100%] Built target heading_node\n'}
+[0.213704] (umrt-ros-poe-cam) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable mobilenet_node\x1b[0m\n'}
+[0.229475] (umrt-serial-cam-ros) CommandEnded: {'returncode': 0}
+[0.230363] (umrt-serial-cam-ros) JobProgress: {'identifier': 'umrt-serial-cam-ros', 'progress': 'install'}
+[0.246500] (umrt-serial-cam-ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros_ws/build/umrt-serial-cam-ros'], 'cwd': '/ros_ws/build/umrt-serial-cam-ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARMCAM0', ''), ('ARMCAM1', ''), ('HOSTNAME', 'umrt-rover'), ('CAM1', ''), ('CAM2', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('FASTDDS_BUILTIN_TRANSPORTS', 'UDPv4'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROVERCAM0', '/dev/video0'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROVERCAM1', ''), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/ros_ws/build/umrt-serial-cam-ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.251623] (umrt-localization-ros) CommandEnded: {'returncode': 0}
+[0.255481] (umrt-localization-ros) JobProgress: {'identifier': 'umrt-localization-ros', 'progress': 'install'}
+[0.255605] (umrt-localization-ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros_ws/build/umrt-localization-ros'], 'cwd': '/ros_ws/build/umrt-localization-ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARMCAM0', ''), ('ARMCAM1', ''), ('HOSTNAME', 'umrt-rover'), ('CAM1', ''), ('CAM2', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('FASTDDS_BUILTIN_TRANSPORTS', 'UDPv4'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROVERCAM0', '/dev/video0'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROVERCAM1', ''), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/ros_ws/build/umrt-localization-ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.266510] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[0.268004] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.268585] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/lib/umrt-serial-cam-ros/umrt-serial-cam-ros\n'}
+[0.269356] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/launch/base.launch.py\n'}
+[0.269604] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/launch/camera.launch.py\n'}
+[0.269836] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/launch/decode.launch.py\n'}
+[0.270070] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/launch/encode.launch.py\n'}
+[0.270341] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/launch/robot.launch.py\n'}
+[0.270523] (umrt-localization-ros) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[0.270893] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/config/cam_params.yaml\n'}
+[0.271170] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/config/encoder_params.yaml\n'}
+[0.271419] (umrt-localization-ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.271592] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/ament_index/resource_index/package_run_dependencies/umrt-serial-cam-ros\n'}
+[0.271798] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/ament_index/resource_index/parent_prefix_path/umrt-serial-cam-ros\n'}
+[0.272050] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/lib/umrt-localization-ros/heading_node\n'}
+[0.272272] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/environment/ament_prefix_path.sh\n'}
+[0.272477] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/environment/ament_prefix_path.dsv\n'}
+[0.272774] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/environment/path.sh\n'}
+[0.272939] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/gps.launch.py\n'}
+[0.273173] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/localization.launch.py\n'}
+[0.273443] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/ublox_mb+r_base.launch.py\n'}
+[0.273603] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/environment/path.dsv\n'}
+[0.273795] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/ublox_mb+r_rover.launch.py\n'}
+[0.274048] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/local_setup.bash\n'}
+[0.274234] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//config/gps_params.yaml\n'}
+[0.274467] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/local_setup.sh\n'}
+[0.274719] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/local_setup.zsh\n'}
+[0.274874] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/local_setup.dsv\n'}
+[0.275089] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/ament_index/resource_index/package_run_dependencies/umrt-localization-ros\n'}
+[0.275265] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/package.dsv\n'}
+[0.275460] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/ament_index/resource_index/parent_prefix_path/umrt-localization-ros\n'}
+[0.275653] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/environment/ament_prefix_path.sh\n'}
+[0.275799] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/environment/ament_prefix_path.dsv\n'}
+[0.276039] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/environment/path.sh\n'}
+[0.276228] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/environment/path.dsv\n'}
+[0.276372] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/local_setup.bash\n'}
+[0.276553] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/local_setup.sh\n'}
+[0.276744] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/local_setup.zsh\n'}
+[0.276983] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/local_setup.dsv\n'}
+[0.277205] (umrt-localization-ros) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.dsv\n'}
+[0.293240] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/ament_index/resource_index/packages/umrt-serial-cam-ros\n'}
+[0.293639] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/cmake/umrt-serial-cam-rosConfig.cmake\n'}
+[0.293868] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/cmake/umrt-serial-cam-rosConfig-version.cmake\n'}
+[0.294059] (umrt-serial-cam-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-serial-cam-ros/share/umrt-serial-cam-ros/package.xml\n'}
+[0.297118] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/ament_index/resource_index/packages/umrt-localization-ros\n'}
+[0.298312] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/cmake/umrt-localization-rosConfig.cmake\n'}
+[0.300344] (-) TimerEvent: {}
+[0.301146] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/cmake/umrt-localization-rosConfig-version.cmake\n'}
+[0.302020] (umrt-localization-ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.xml\n'}
+[0.302314] (umrt-serial-cam-ros) CommandEnded: {'returncode': 0}
+[0.380981] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.392397] (umrt-serial-cam-ros) JobEnded: {'identifier': 'umrt-serial-cam-ros', 'rc': 0}
+[0.394855] (umrt-localization-ros) CommandEnded: {'returncode': 0}
+[0.400625] (-) TimerEvent: {}
+[0.429336] (umrt-localization-ros) JobEnded: {'identifier': 'umrt-localization-ros', 'rc': 0}
+[0.451086] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.456902] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.469774] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.490325] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500832] (-) TimerEvent: {}
+[0.515839] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601024] (-) TimerEvent: {}
+[0.676212] (umrt-ros-poe-cam) StdoutLine: {'line': b'[ 66%] Built target republisher_node\n'}
+[0.701148] (-) TimerEvent: {}
+[0.801878] (-) TimerEvent: {}
+[0.872229] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.875057] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901985] (-) TimerEvent: {}
+[0.915177] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.934920] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.965934] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.982583] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.001272] (umrt-arm-ros-firmware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.002056] (-) TimerEvent: {}
+[1.098716] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.102160] (-) TimerEvent: {}
+[1.120169] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found ros2_j1939_babbler_msgs: 0.0.0 (/opt/ros/humble/share/ros2_j1939_babbler_msgs/cmake)\n'}
+[1.178004] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: log log_setup filesystem \n'}
+[1.187227] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread \n'}
+[1.196465] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)\n'}
+[1.202281] (-) TimerEvent: {}
+[1.302860] (-) TimerEvent: {}
+[1.403486] (-) TimerEvent: {}
+[1.504135] (-) TimerEvent: {}
+[1.604757] (-) TimerEvent: {}
+[1.705374] (-) TimerEvent: {}
+[1.806071] (-) TimerEvent: {}
+[1.906805] (-) TimerEvent: {}
+[2.007481] (-) TimerEvent: {}
+[2.108125] (-) TimerEvent: {}
+[2.208757] (-) TimerEvent: {}
+[2.309369] (-) TimerEvent: {}
+[2.409986] (-) TimerEvent: {}
+[2.510648] (-) TimerEvent: {}
+[2.611328] (-) TimerEvent: {}
+[2.711980] (-) TimerEvent: {}
+[2.765929] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.812194] (-) TimerEvent: {}
+[2.816232] (umrt-ros-poe-cam) StdoutLine: {'line': b'[100%] Built target mobilenet_node\n'}
+[2.827820] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Generating done\n'}
+[2.841439] (umrt-ros-poe-cam) CommandEnded: {'returncode': 0}
+[2.842718] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Build files have been written to: /ros_ws/build/umrt-arm-ros-firmware\n'}
+[2.843725] (umrt-ros-poe-cam) JobProgress: {'identifier': 'umrt-ros-poe-cam', 'progress': 'install'}
+[2.847400] (umrt-ros-poe-cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros_ws/build/umrt-ros-poe-cam'], 'cwd': '/ros_ws/build/umrt-ros-poe-cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARMCAM0', ''), ('ARMCAM1', ''), ('HOSTNAME', 'umrt-rover'), ('CAM1', ''), ('CAM2', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('FASTDDS_BUILTIN_TRANSPORTS', 'UDPv4'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROVERCAM0', '/dev/video0'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROVERCAM1', ''), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/ros_ws/build/umrt-ros-poe-cam'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.865380] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[2.866302] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.867347] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/color.yaml\n'}
+[2.867634] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/left.yaml\n'}
+[2.867875] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/params/camera/right.yaml\n'}
+[2.868204] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/resources/mobilenet-ssd_openvino_2021.2_6shave.blob\n'}
+[2.868648] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/example.launch.py\n'}
+[2.868863] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/example.yaml\n'}
+[2.869060] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/mobile_publisher.launch.py\n'}
+[2.869281] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/launch/transport.launch.py\n'}
+[2.869669] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/lib/umrt-ros-poe-cam/republisher_node\n'}
+[2.869922] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/lib/umrt-ros-poe-cam/mobilenet_node\n'}
+[2.870240] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/ament_index/resource_index/package_run_dependencies/umrt-ros-poe-cam\n'}
+[2.870547] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/ament_index/resource_index/parent_prefix_path/umrt-ros-poe-cam\n'}
+[2.870886] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/ament_prefix_path.sh\n'}
+[2.871197] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/ament_prefix_path.dsv\n'}
+[2.871486] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/path.sh\n'}
+[2.871715] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/environment/path.dsv\n'}
+[2.872163] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.bash\n'}
+[2.872422] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.sh\n'}
+[2.872652] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.zsh\n'}
+[2.872897] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/local_setup.dsv\n'}
+[2.873096] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.dsv\n'}
+[2.889963] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/ament_index/resource_index/packages/umrt-ros-poe-cam\n'}
+[2.890449] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/cmake/umrt-ros-poe-camConfig.cmake\n'}
+[2.890670] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/cmake/umrt-ros-poe-camConfig-version.cmake\n'}
+[2.890834] (umrt-ros-poe-cam) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-ros-poe-cam/share/umrt-ros-poe-cam/package.xml\n'}
+[2.894522] (umrt-ros-poe-cam) CommandEnded: {'returncode': 0}
+[2.912275] (-) TimerEvent: {}
+[2.917916] (umrt-arm-ros-firmware) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target umrt-arm-ros-firmware\x1b[0m\n'}
+[2.923051] (umrt-ros-poe-cam) JobEnded: {'identifier': 'umrt-ros-poe-cam', 'rc': 0}
+[3.012514] (-) TimerEvent: {}
+[3.048933] (umrt-arm-ros-firmware) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/umrt-arm-ros-firmware.dir/hardware/wheel_adapter.cpp.o\x1b[0m\n'}
+[3.049464] (umrt-arm-ros-firmware) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/umrt-arm-ros-firmware.dir/hardware/rover_control_system.cpp.o\x1b[0m\n'}
+[3.071082] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K<command-line>:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++11 requires whitespace after the macro name\n'}
+[3.071662] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K<command-line>:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++11 requires whitespace after the macro name\n'}
+[3.112622] (-) TimerEvent: {}
+[3.213214] (-) TimerEvent: {}
+[3.313897] (-) TimerEvent: {}
+[3.414586] (-) TimerEvent: {}
+[3.515282] (-) TimerEvent: {}
+[3.615986] (-) TimerEvent: {}
+[3.716669] (-) TimerEvent: {}
+[3.817361] (-) TimerEvent: {}
+[3.918040] (-) TimerEvent: {}
+[4.018734] (-) TimerEvent: {}
+[4.119430] (-) TimerEvent: {}
+[4.220148] (-) TimerEvent: {}
+[4.320841] (-) TimerEvent: {}
+[4.421559] (-) TimerEvent: {}
+[4.522275] (-) TimerEvent: {}
+[4.622990] (-) TimerEvent: {}
+[4.723730] (-) TimerEvent: {}
+[4.824441] (-) TimerEvent: {}
+[4.925139] (-) TimerEvent: {}
+[5.025836] (-) TimerEvent: {}
+[5.126544] (-) TimerEvent: {}
+[5.227247] (-) TimerEvent: {}
+[5.327992] (-) TimerEvent: {}
+[5.428681] (-) TimerEvent: {}
+[5.529379] (-) TimerEvent: {}
+[5.630089] (-) TimerEvent: {}
+[5.730782] (-) TimerEvent: {}
+[5.831483] (-) TimerEvent: {}
+[5.932210] (-) TimerEvent: {}
+[6.032910] (-) TimerEvent: {}
+[6.133624] (-) TimerEvent: {}
+[6.234334] (-) TimerEvent: {}
+[6.335048] (-) TimerEvent: {}
+[6.435795] (-) TimerEvent: {}
+[6.536541] (-) TimerEvent: {}
+[6.637247] (-) TimerEvent: {}
+[6.737978] (-) TimerEvent: {}
+[6.838671] (-) TimerEvent: {}
+[6.939391] (-) TimerEvent: {}
+[7.040107] (-) TimerEvent: {}
+[7.140819] (-) TimerEvent: {}
+[7.241527] (-) TimerEvent: {}
+[7.342249] (-) TimerEvent: {}
+[7.442971] (-) TimerEvent: {}
+[7.543670] (-) TimerEvent: {}
+[7.644404] (-) TimerEvent: {}
+[7.745114] (-) TimerEvent: {}
+[7.845839] (-) TimerEvent: {}
+[7.946613] (-) TimerEvent: {}
+[8.047330] (-) TimerEvent: {}
+[8.148027] (-) TimerEvent: {}
+[8.248761] (-) TimerEvent: {}
+[8.349498] (-) TimerEvent: {}
+[8.450215] (-) TimerEvent: {}
+[8.550947] (-) TimerEvent: {}
+[8.651663] (-) TimerEvent: {}
+[8.752417] (-) TimerEvent: {}
+[8.853147] (-) TimerEvent: {}
+[8.953853] (-) TimerEvent: {}
+[9.054587] (-) TimerEvent: {}
+[9.155310] (-) TimerEvent: {}
+[9.256044] (-) TimerEvent: {}
+[9.356771] (-) TimerEvent: {}
+[9.457518] (-) TimerEvent: {}
+[9.558240] (-) TimerEvent: {}
+[9.658950] (-) TimerEvent: {}
+[9.759741] (-) TimerEvent: {}
+[9.860490] (-) TimerEvent: {}
+[9.961226] (-) TimerEvent: {}
+[10.061948] (-) TimerEvent: {}
+[10.162689] (-) TimerEvent: {}
+[10.263437] (-) TimerEvent: {}
+[10.368061] (-) TimerEvent: {}
+[10.468801] (-) TimerEvent: {}
+[10.569513] (-) TimerEvent: {}
+[10.670247] (-) TimerEvent: {}
+[10.771111] (-) TimerEvent: {}
+[10.871845] (-) TimerEvent: {}
+[10.972660] (-) TimerEvent: {}
+[11.073381] (-) TimerEvent: {}
+[11.174105] (-) TimerEvent: {}
+[11.274821] (-) TimerEvent: {}
+[11.375547] (-) TimerEvent: {}
+[11.476315] (-) TimerEvent: {}
+[11.577034] (-) TimerEvent: {}
+[11.677754] (-) TimerEvent: {}
+[11.778486] (-) TimerEvent: {}
+[11.879329] (-) TimerEvent: {}
+[11.980066] (-) TimerEvent: {}
+[12.080805] (-) TimerEvent: {}
+[12.181518] (-) TimerEvent: {}
+[12.282237] (-) TimerEvent: {}
+[12.382936] (-) TimerEvent: {}
+[12.483650] (-) TimerEvent: {}
+[12.584384] (-) TimerEvent: {}
+[12.685112] (-) TimerEvent: {}
+[12.785834] (-) TimerEvent: {}
+[12.886570] (-) TimerEvent: {}
+[12.987303] (-) TimerEvent: {}
+[13.088024] (-) TimerEvent: {}
+[13.188777] (-) TimerEvent: {}
+[13.289505] (-) TimerEvent: {}
+[13.390222] (-) TimerEvent: {}
+[13.490957] (-) TimerEvent: {}
+[13.591684] (-) TimerEvent: {}
+[13.692455] (-) TimerEvent: {}
+[13.793186] (-) TimerEvent: {}
+[13.893920] (-) TimerEvent: {}
+[13.994658] (-) TimerEvent: {}
+[14.095375] (-) TimerEvent: {}
+[14.196123] (-) TimerEvent: {}
+[14.296836] (-) TimerEvent: {}
+[14.397552] (-) TimerEvent: {}
+[14.498276] (-) TimerEvent: {}
+[14.599005] (-) TimerEvent: {}
+[14.699710] (-) TimerEvent: {}
+[14.800492] (-) TimerEvent: {}
+[14.901218] (-) TimerEvent: {}
+[15.001958] (-) TimerEvent: {}
+[15.102679] (-) TimerEvent: {}
+[15.203393] (-) TimerEvent: {}
+[15.304135] (-) TimerEvent: {}
+[15.404873] (-) TimerEvent: {}
+[15.505602] (-) TimerEvent: {}
+[15.606337] (-) TimerEvent: {}
+[15.707076] (-) TimerEvent: {}
+[15.807798] (-) TimerEvent: {}
+[15.823369] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn umrt_arm_ros_firmware::DrivetrainControlSystem::on_configure(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.824103] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:94:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.824312] (umrt-arm-ros-firmware) StderrLine: {'line': b'   94 |             \x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State& previous_state\x1b[m\x1b[K\n'}
+[15.824474] (umrt-arm-ros-firmware) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.825518] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn umrt_arm_ros_firmware::DrivetrainControlSystem::on_cleanup(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.825699] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:107:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.825852] (umrt-arm-ros-firmware) StderrLine: {'line': b'  107 |             \x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State& previous_state\x1b[m\x1b[K\n'}
+[15.826044] (umrt-arm-ros-firmware) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.827702] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn umrt_arm_ros_firmware::DrivetrainControlSystem::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.827992] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:120:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.828160] (umrt-arm-ros-firmware) StderrLine: {'line': b'  120 |             \x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State& previous_state\x1b[m\x1b[K\n'}
+[15.828299] (umrt-arm-ros-firmware) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.829895] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn umrt_arm_ros_firmware::DrivetrainControlSystem::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.830090] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:130:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.830362] (umrt-arm-ros-firmware) StderrLine: {'line': b'  130 |             \x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State& previous_state\x1b[m\x1b[K\n'}
+[15.830641] (umrt-arm-ros-firmware) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.830792] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type umrt_arm_ros_firmware::DrivetrainControlSystem::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.830936] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:140:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.831077] (umrt-arm-ros-firmware) StderrLine: {'line': b'  140 |             \x1b[01;35m\x1b[Kconst rclcpp::Time& time\x1b[m\x1b[K, const rclcpp::Duration& period\n'}
+[15.831213] (umrt-arm-ros-firmware) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[15.831347] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:140:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.831651] (umrt-arm-ros-firmware) StderrLine: {'line': b'  140 |             const rclcpp::Time& time, \x1b[01;35m\x1b[Kconst rclcpp::Duration& period\x1b[m\x1b[K\n'}
+[15.831885] (umrt-arm-ros-firmware) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[15.832045] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type umrt_arm_ros_firmware::DrivetrainControlSystem::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.832212] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:147:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.832601] (umrt-arm-ros-firmware) StderrLine: {'line': b'  147 |             \x1b[01;35m\x1b[Kconst rclcpp::Time& time\x1b[m\x1b[K, const rclcpp::Duration& period\n'}
+[15.832787] (umrt-arm-ros-firmware) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[15.833447] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[01m\x1b[K/ros_ws/src/umrt-arm-ros-firmware/hardware/rover_control_system.cpp:147:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.833946] (umrt-arm-ros-firmware) StderrLine: {'line': b'  147 |             const rclcpp::Time& time, \x1b[01;35m\x1b[Kconst rclcpp::Duration& period\x1b[m\x1b[K\n'}
+[15.834301] (umrt-arm-ros-firmware) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[15.907998] (-) TimerEvent: {}
+[16.008696] (-) TimerEvent: {}
+[16.109408] (-) TimerEvent: {}
+[16.210117] (-) TimerEvent: {}
+[16.310841] (-) TimerEvent: {}
+[16.411569] (-) TimerEvent: {}
+[16.512349] (-) TimerEvent: {}
+[16.613078] (-) TimerEvent: {}
+[16.713793] (-) TimerEvent: {}
+[16.814520] (-) TimerEvent: {}
+[16.915249] (-) TimerEvent: {}
+[17.015996] (-) TimerEvent: {}
+[17.116715] (-) TimerEvent: {}
+[17.217427] (-) TimerEvent: {}
+[17.318142] (-) TimerEvent: {}
+[17.418853] (-) TimerEvent: {}
+[17.519577] (-) TimerEvent: {}
+[17.620351] (-) TimerEvent: {}
+[17.721098] (-) TimerEvent: {}
+[17.821799] (-) TimerEvent: {}
+[17.922503] (-) TimerEvent: {}
+[18.023205] (-) TimerEvent: {}
+[18.123931] (-) TimerEvent: {}
+[18.224640] (-) TimerEvent: {}
+[18.325356] (-) TimerEvent: {}
+[18.426057] (-) TimerEvent: {}
+[18.526749] (-) TimerEvent: {}
+[18.627439] (-) TimerEvent: {}
+[18.728160] (-) TimerEvent: {}
+[18.828856] (-) TimerEvent: {}
+[18.929543] (-) TimerEvent: {}
+[19.030241] (-) TimerEvent: {}
+[19.130934] (-) TimerEvent: {}
+[19.231640] (-) TimerEvent: {}
+[19.332341] (-) TimerEvent: {}
+[19.433081] (-) TimerEvent: {}
+[19.533779] (-) TimerEvent: {}
+[19.634498] (-) TimerEvent: {}
+[19.735237] (-) TimerEvent: {}
+[19.836174] (-) TimerEvent: {}
+[19.937030] (-) TimerEvent: {}
+[20.037872] (-) TimerEvent: {}
+[20.138709] (-) TimerEvent: {}
+[20.239530] (-) TimerEvent: {}
+[20.340410] (-) TimerEvent: {}
+[20.441225] (-) TimerEvent: {}
+[20.542046] (-) TimerEvent: {}
+[20.642884] (-) TimerEvent: {}
+[20.743696] (-) TimerEvent: {}
+[20.844541] (-) TimerEvent: {}
+[20.945367] (-) TimerEvent: {}
+[21.046190] (-) TimerEvent: {}
+[21.147018] (-) TimerEvent: {}
+[21.247856] (-) TimerEvent: {}
+[21.348718] (-) TimerEvent: {}
+[21.449555] (-) TimerEvent: {}
+[21.550369] (-) TimerEvent: {}
+[21.651188] (-) TimerEvent: {}
+[21.752038] (-) TimerEvent: {}
+[21.852877] (-) TimerEvent: {}
+[21.953790] (-) TimerEvent: {}
+[22.054712] (-) TimerEvent: {}
+[22.155537] (-) TimerEvent: {}
+[22.256390] (-) TimerEvent: {}
+[22.357213] (-) TimerEvent: {}
+[22.458065] (-) TimerEvent: {}
+[22.558903] (-) TimerEvent: {}
+[22.659717] (-) TimerEvent: {}
+[22.760564] (-) TimerEvent: {}
+[22.861404] (-) TimerEvent: {}
+[22.962240] (-) TimerEvent: {}
+[23.063064] (-) TimerEvent: {}
+[23.163907] (-) TimerEvent: {}
+[23.264731] (-) TimerEvent: {}
+[23.365563] (-) TimerEvent: {}
+[23.466384] (-) TimerEvent: {}
+[23.567201] (-) TimerEvent: {}
+[23.668050] (-) TimerEvent: {}
+[23.768871] (-) TimerEvent: {}
+[23.869631] (-) TimerEvent: {}
+[23.970459] (-) TimerEvent: {}
+[24.071286] (-) TimerEvent: {}
+[24.172097] (-) TimerEvent: {}
+[24.272923] (-) TimerEvent: {}
+[24.373755] (-) TimerEvent: {}
+[24.474571] (-) TimerEvent: {}
+[24.575366] (-) TimerEvent: {}
+[24.676351] (-) TimerEvent: {}
+[24.777162] (-) TimerEvent: {}
+[24.877993] (-) TimerEvent: {}
+[24.978809] (-) TimerEvent: {}
+[25.079626] (-) TimerEvent: {}
+[25.180477] (-) TimerEvent: {}
+[25.281315] (-) TimerEvent: {}
+[25.382138] (-) TimerEvent: {}
+[25.482962] (-) TimerEvent: {}
+[25.583790] (-) TimerEvent: {}
+[25.684647] (-) TimerEvent: {}
+[25.785468] (-) TimerEvent: {}
+[25.886285] (-) TimerEvent: {}
+[25.987097] (-) TimerEvent: {}
+[26.087952] (-) TimerEvent: {}
+[26.188789] (-) TimerEvent: {}
+[26.289617] (-) TimerEvent: {}
+[26.390462] (-) TimerEvent: {}
+[26.491309] (-) TimerEvent: {}
+[26.592181] (-) TimerEvent: {}
+[26.693025] (-) TimerEvent: {}
+[26.793825] (-) TimerEvent: {}
+[26.894510] (-) TimerEvent: {}
+[26.995213] (-) TimerEvent: {}
+[27.096002] (-) TimerEvent: {}
+[27.197136] (-) TimerEvent: {}
+[27.298002] (-) TimerEvent: {}
+[27.398872] (-) TimerEvent: {}
+[27.499732] (-) TimerEvent: {}
+[27.600597] (-) TimerEvent: {}
+[27.701435] (-) TimerEvent: {}
+[27.802280] (-) TimerEvent: {}
+[27.903120] (-) TimerEvent: {}
+[28.003995] (-) TimerEvent: {}
+[28.104847] (-) TimerEvent: {}
+[28.205696] (-) TimerEvent: {}
+[28.306554] (-) TimerEvent: {}
+[28.407396] (-) TimerEvent: {}
+[28.508280] (-) TimerEvent: {}
+[28.609135] (-) TimerEvent: {}
+[28.709976] (-) TimerEvent: {}
+[28.783084] (umrt-arm-ros-firmware) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libumrt-arm-ros-firmware.so\x1b[0m\n'}
+[28.810240] (-) TimerEvent: {}
+[28.910935] (-) TimerEvent: {}
+[29.011787] (-) TimerEvent: {}
+[29.112678] (-) TimerEvent: {}
+[29.213521] (-) TimerEvent: {}
+[29.314381] (-) TimerEvent: {}
+[29.415223] (-) TimerEvent: {}
+[29.516349] (-) TimerEvent: {}
+[29.617441] (-) TimerEvent: {}
+[29.718214] (-) TimerEvent: {}
+[29.819048] (-) TimerEvent: {}
+[29.919914] (-) TimerEvent: {}
+[30.020768] (-) TimerEvent: {}
+[30.121633] (-) TimerEvent: {}
+[30.222479] (-) TimerEvent: {}
+[30.323562] (-) TimerEvent: {}
+[30.424671] (-) TimerEvent: {}
+[30.525449] (-) TimerEvent: {}
+[30.626135] (-) TimerEvent: {}
+[30.726822] (-) TimerEvent: {}
+[30.801889] (umrt-arm-ros-firmware) StdoutLine: {'line': b'[100%] Built target umrt-arm-ros-firmware\n'}
+[30.825168] (umrt-arm-ros-firmware) CommandEnded: {'returncode': 0}
+[30.826910] (-) TimerEvent: {}
+[30.827772] (umrt-arm-ros-firmware) JobProgress: {'identifier': 'umrt-arm-ros-firmware', 'progress': 'install'}
+[30.828710] (umrt-arm-ros-firmware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros_ws/build/umrt-arm-ros-firmware'], 'cwd': '/ros_ws/build/umrt-arm-ros-firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARMCAM0', ''), ('ARMCAM1', ''), ('HOSTNAME', 'umrt-rover'), ('CAM1', ''), ('CAM2', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('FASTDDS_BUILTIN_TRANSPORTS', 'UDPv4'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROVERCAM0', '/dev/video0'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROVERCAM1', ''), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/ros_ws/build/umrt-arm-ros-firmware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.845244] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[30.846369] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[30.847105] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/urdf/prairie_pioneer.materials.xacro\n'}
+[30.847407] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/urdf/prairie_pioneer_description.urdf.xacro\n'}
+[30.847903] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/rviz/prairie_pioneer.rviz\n'}
+[30.848196] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/rviz/prairie_pioneer_view.rviz\n'}
+[30.848722] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/inertial_macros.xacro\n'}
+[30.849036] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/project_perry.materials.xacro\n'}
+[30.849324] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/project_perry_description.urdf.xacro\n'}
+[30.849675] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/rover.materials.xacro\n'}
+[30.849949] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/rover_description.urdf.xacro\n'}
+[30.850207] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/project_perry.rviz\n'}
+[30.850462] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/project_perry_view.rviz\n'}
+[30.850774] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/rover.rviz\n'}
+[30.851067] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/rover_view.rviz\n'}
+[30.851284] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware//umrt-arm-ros-firmware.xml\n'}
+[30.851995] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/CMakeLists.txt\n'}
+[30.852413] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/package.xml\n'}
+[30.852699] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/rviz/prairie_pioneer.rviz\n'}
+[30.852958] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/rviz/prairie_pioneer_view.rviz\n'}
+[30.853212] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/urdf/prairie_pioneer.materials.xacro\n'}
+[30.853489] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/prairie_pioneer/urdf/prairie_pioneer_description.urdf.xacro\n'}
+[30.853739] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/project_perry.rviz\n'}
+[30.853982] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/project_perry_view.rviz\n'}
+[30.854193] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/rover.rviz\n'}
+[30.854420] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/rviz/rover_view.rviz\n'}
+[30.854684] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/inertial_macros.xacro\n'}
+[30.854926] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/project_perry.materials.xacro\n'}
+[30.855211] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/project_perry_description.urdf.xacro\n'}
+[30.855481] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/rover.materials.xacro\n'}
+[30.855730] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/ros2_control_demo_description/project_perry/urdf/rover_description.urdf.xacro\n'}
+[30.856004] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/arduino_stepper_adapter.hpp\n'}
+[30.856282] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/mks_stepper_adapter.hpp\n'}
+[30.856494] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/robotic_arm_control_system.hpp\n'}
+[30.856706] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/rover_control_system.hpp\n'}
+[30.856955] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/stepper_adapter.hpp\n'}
+[30.857229] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/visibility_control.h\n'}
+[30.857500] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/include/umrt-arm-ros-firmware/umrt-arm-ros-firmware/wheel_adapter.hpp\n'}
+[30.857756] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/launch/view_robot.launch.py\n'}
+[30.858037] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control/prairie_pioneer.ros2_control.xacro\n'}
+[30.858319] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control/project_perry.ros2_control.xacro\n'}
+[30.858608] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/ros2_control/rover.ros2_control.xacro\n'}
+[30.858827] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/urdf/prairie_pioneer.urdf.xacro\n'}
+[30.859112] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/urdf/project_perry.urdf.xacro\n'}
+[30.859375] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/urdf/rover.urdf.xacro\n'}
+[30.859632] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/launch/joy.launch.py\n'}
+[30.859904] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/launch/prairie_pioneer.launch.py\n'}
+[30.860146] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/launch/project_perry.launch.py\n'}
+[30.860397] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/launch/rover_drivetrain.launch.py\n'}
+[30.860653] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/config/joystick.yaml\n'}
+[30.860911] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/config/umrt_arm_controllers.yaml\n'}
+[30.861138] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/config/umrt_rover_controller.yaml\n'}
+[30.861390] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/environment/library_path.sh\n'}
+[30.861643] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/environment/library_path.dsv\n'}
+[30.861899] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/ament_index/resource_index/package_run_dependencies/umrt-arm-ros-firmware\n'}
+[30.862156] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/ament_index/resource_index/parent_prefix_path/umrt-arm-ros-firmware\n'}
+[30.862413] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/environment/ament_prefix_path.sh\n'}
+[30.862667] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/environment/ament_prefix_path.dsv\n'}
+[30.862967] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/environment/path.sh\n'}
+[30.863176] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/environment/path.dsv\n'}
+[30.863476] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/local_setup.bash\n'}
+[30.863746] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/local_setup.sh\n'}
+[30.864017] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/local_setup.zsh\n'}
+[30.864268] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/local_setup.dsv\n'}
+[30.864473] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.dsv\n'}
+[30.881622] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/ament_index/resource_index/packages/umrt-arm-ros-firmware\n'}
+[30.882415] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/umrt-arm-ros-firmware\n'}
+[30.882929] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.883239] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.883665] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/cmake/umrt-arm-ros-firmwareConfig.cmake\n'}
+[30.884042] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/cmake/umrt-arm-ros-firmwareConfig-version.cmake\n'}
+[30.884331] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/package.xml\n'}
+[30.884598] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Installing: /ros_ws/install/umrt-arm-ros-firmware/lib/libumrt-arm-ros-firmware.so\n'}
+[30.927073] (-) TimerEvent: {}
+[30.947509] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Set runtime path of "/ros_ws/install/umrt-arm-ros-firmware/lib/libumrt-arm-ros-firmware.so" to ""\n'}
+[30.948073] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/cmake/export_umrt-arm-ros-firmwareExport.cmake\n'}
+[30.948327] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Up-to-date: /ros_ws/install/umrt-arm-ros-firmware/share/umrt-arm-ros-firmware/cmake/export_umrt-arm-ros-firmwareExport-debug.cmake\n'}
+[30.952245] (umrt-arm-ros-firmware) CommandEnded: {'returncode': 0}
+[31.011259] (umrt-arm-ros-firmware) JobEnded: {'identifier': 'umrt-arm-ros-firmware', 'rc': 0}
+[31.014577] (-) EventReactorShutdown: {}

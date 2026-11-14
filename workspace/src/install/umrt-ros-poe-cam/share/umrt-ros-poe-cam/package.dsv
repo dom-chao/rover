@@ -1,0 +1,8 @@
+source;share/umrt-ros-poe-cam/hook/cmake_prefix_path.ps1
+source;share/umrt-ros-poe-cam/hook/cmake_prefix_path.dsv
+source;share/umrt-ros-poe-cam/hook/cmake_prefix_path.sh
+source;share/umrt-ros-poe-cam/local_setup.bash
+source;share/umrt-ros-poe-cam/local_setup.dsv
+source;share/umrt-ros-poe-cam/local_setup.ps1
+source;share/umrt-ros-poe-cam/local_setup.sh
+source;share/umrt-ros-poe-cam/local_setup.zsh

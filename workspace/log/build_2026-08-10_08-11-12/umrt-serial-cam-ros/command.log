@@ -1,0 +1,6 @@
+Invoking command in '/ros_ws/workspace/build/umrt-serial-cam-ros': /usr/bin/cmake /ros_ws/workspace/src/umrt-serial-cam-ros -DCMAKE_INSTALL_PREFIX=/ros_ws/workspace/install/umrt-serial-cam-ros
+Invoked command in '/ros_ws/workspace/build/umrt-serial-cam-ros' returned '0': /usr/bin/cmake /ros_ws/workspace/src/umrt-serial-cam-ros -DCMAKE_INSTALL_PREFIX=/ros_ws/workspace/install/umrt-serial-cam-ros
+Invoking command in '/ros_ws/workspace/build/umrt-serial-cam-ros': /usr/bin/cmake --build /ros_ws/workspace/build/umrt-serial-cam-ros -- -j8 -l8
+Invoked command in '/ros_ws/workspace/build/umrt-serial-cam-ros' returned '0': /usr/bin/cmake --build /ros_ws/workspace/build/umrt-serial-cam-ros -- -j8 -l8
+Invoking command in '/ros_ws/workspace/build/umrt-serial-cam-ros': /usr/bin/cmake --install /ros_ws/workspace/build/umrt-serial-cam-ros
+Invoked command in '/ros_ws/workspace/build/umrt-serial-cam-ros' returned '0': /usr/bin/cmake --install /ros_ws/workspace/build/umrt-serial-cam-ros

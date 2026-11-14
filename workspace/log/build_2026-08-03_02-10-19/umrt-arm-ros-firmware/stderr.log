@@ -1,0 +1,13 @@
+[31mCMake Error at CMakeLists.txt:26 (find_package):
+  Could not find a package configuration file provided by
+  "ros2_j1939_babbler_msgs" with any of the following names:
+
+    ros2_j1939_babbler_msgsConfig.cmake
+    ros2_j1939_babbler_msgs-config.cmake
+
+  Add the installation prefix of "ros2_j1939_babbler_msgs" to
+  CMAKE_PREFIX_PATH or set "ros2_j1939_babbler_msgs_DIR" to a directory
+  containing one of the above files.  If "ros2_j1939_babbler_msgs" provides a
+  separate development package or SDK, be sure it has been installed.
+
+[0m

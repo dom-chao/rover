@@ -1,0 +1,6 @@
+Invoking command in '/ros_ws/build/umrt-arm-ros-firmware': /usr/bin/cmake /ros_ws/src/umrt-arm-ros-firmware -DCMAKE_INSTALL_PREFIX=/ros_ws/install/umrt-arm-ros-firmware
+Invoked command in '/ros_ws/build/umrt-arm-ros-firmware' returned '0': /usr/bin/cmake /ros_ws/src/umrt-arm-ros-firmware -DCMAKE_INSTALL_PREFIX=/ros_ws/install/umrt-arm-ros-firmware
+Invoking command in '/ros_ws/build/umrt-arm-ros-firmware': /usr/bin/cmake --build /ros_ws/build/umrt-arm-ros-firmware -- -j4 -l4
+Invoked command in '/ros_ws/build/umrt-arm-ros-firmware' returned '0': /usr/bin/cmake --build /ros_ws/build/umrt-arm-ros-firmware -- -j4 -l4
+Invoking command in '/ros_ws/build/umrt-arm-ros-firmware': /usr/bin/cmake --install /ros_ws/build/umrt-arm-ros-firmware
+Invoked command in '/ros_ws/build/umrt-arm-ros-firmware' returned '0': /usr/bin/cmake --install /ros_ws/build/umrt-arm-ros-firmware

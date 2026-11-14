@@ -1,0 +1,28 @@
+[0.041s] Invoking command in '/ros_ws/build/umrt-localization-ros': /usr/bin/cmake --build /ros_ws/build/umrt-localization-ros -- -j8 -l8
+[0.259s] [100%] Built target heading_node
+[0.282s] Invoked command in '/ros_ws/build/umrt-localization-ros' returned '0': /usr/bin/cmake --build /ros_ws/build/umrt-localization-ros -- -j8 -l8
+[0.303s] Invoking command in '/ros_ws/build/umrt-localization-ros': /usr/bin/cmake --install /ros_ws/build/umrt-localization-ros
+[0.317s] -- Install configuration: "Debug"
+[0.319s] -- Execute custom install script
+[0.320s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/lib/umrt-localization-ros/heading_node
+[0.321s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/gps.launch.py
+[0.321s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/localization.launch.py
+[0.321s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/ublox_mb+r_base.launch.py
+[0.322s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//launch/ublox_mb+r_rover.launch.py
+[0.322s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros//config/gps_params.yaml
+[0.323s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/ament_index/resource_index/package_run_dependencies/umrt-localization-ros
+[0.324s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/ament_index/resource_index/parent_prefix_path/umrt-localization-ros
+[0.324s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/environment/ament_prefix_path.sh
+[0.325s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/environment/ament_prefix_path.dsv
+[0.325s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/environment/path.sh
+[0.325s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/environment/path.dsv
+[0.326s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/local_setup.bash
+[0.326s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/local_setup.sh
+[0.326s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/local_setup.zsh
+[0.327s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/local_setup.dsv
+[0.327s] -- Symlinking: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.dsv
+[0.345s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/ament_index/resource_index/packages/umrt-localization-ros
+[0.345s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/cmake/umrt-localization-rosConfig.cmake
+[0.346s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/cmake/umrt-localization-rosConfig-version.cmake
+[0.346s] -- Up-to-date symlink: /ros_ws/install/umrt-localization-ros/share/umrt-localization-ros/package.xml
+[0.351s] Invoked command in '/ros_ws/build/umrt-localization-ros' returned '0': /usr/bin/cmake --install /ros_ws/build/umrt-localization-ros

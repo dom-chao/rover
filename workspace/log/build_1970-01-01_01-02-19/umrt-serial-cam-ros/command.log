@@ -1,0 +1,1 @@
+Invoking command in '/ros_ws/build/umrt-serial-cam-ros': /usr/bin/cmake --build /ros_ws/build/umrt-serial-cam-ros -- -j8 -l8

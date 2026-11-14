@@ -1,0 +1,2 @@
+Invoking command in '/ros_ws/build/umrt-arm-ros-firmware': /usr/bin/cmake --build /ros_ws/build/umrt-arm-ros-firmware -- -j8 -l8
+Invoked command in '/ros_ws/build/umrt-arm-ros-firmware' returned '2': /usr/bin/cmake --build /ros_ws/build/umrt-arm-ros-firmware -- -j8 -l8

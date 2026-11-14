@@ -1,0 +1,5 @@
+[0.054s] Invoking command in '/ros_ws/workspace/build/umrt-serial-cam-ros': /usr/bin/cmake --build /ros_ws/workspace/build/umrt-serial-cam-ros -- -j8 -l8
+[0.077s] [0mCMake Error: The current CMakeCache.txt directory /ros_ws/workspace/build/umrt-serial-cam-ros/CMakeCache.txt is different than the directory /ros_ws/build/umrt-serial-cam-ros where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.133s] [0mCMake Error: The source directory "/ros_ws/src/umrt-serial-cam-ros" does not exist.
+[0.134s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.135s] gmake: *** [Makefile:294: cmake_check_build_system] Error 1

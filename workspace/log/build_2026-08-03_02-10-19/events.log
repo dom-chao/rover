@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.001390] (-) JobUnselected: {'identifier': 'umrt-localization-ros'}
+[0.001524] (-) JobUnselected: {'identifier': 'umrt-ros-poe-cam'}
+[0.001610] (-) JobUnselected: {'identifier': 'umrt-serial-cam-ros'}
+[0.001695] (umrt-arm-ros-firmware) JobQueued: {'identifier': 'umrt-arm-ros-firmware', 'dependencies': OrderedDict()}
+[0.001779] (umrt-arm-ros-firmware) JobStarted: {'identifier': 'umrt-arm-ros-firmware'}
+[0.022771] (umrt-arm-ros-firmware) JobProgress: {'identifier': 'umrt-arm-ros-firmware', 'progress': 'cmake'}
+[0.023924] (umrt-arm-ros-firmware) Command: {'cmd': ['/usr/bin/cmake', '/ros_ws/src/umrt-arm-ros-firmware', '-DCMAKE_INSTALL_PREFIX=/ros_ws/install/umrt-arm-ros-firmware'], 'cwd': '/ros_ws/build/umrt-arm-ros-firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARMCAM0', ''), ('ARMCAM1', ''), ('HOSTNAME', 'umrt-rover'), ('CAM1', ''), ('CAM2', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('FASTDDS_BUILTIN_TRANSPORTS', 'UDPv4'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/ros_ws/build/umrt-arm-ros-firmware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099367] (-) TimerEvent: {}
+[0.200463] (-) TimerEvent: {}
+[0.228846] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300653] (-) TimerEvent: {}
+[0.380411] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.397581] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400738] (-) TimerEvent: {}
+[0.501272] (-) TimerEvent: {}
+[0.531740] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.555284] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.556317] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.557362] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.566134] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601446] (-) TimerEvent: {}
+[0.702118] (-) TimerEvent: {}
+[0.717054] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.742369] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.742938] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.744139] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.754719] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found hardware_interface: 2.54.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.802303] (-) TimerEvent: {}
+[0.902906] (-) TimerEvent: {}
+[1.003869] (-) TimerEvent: {}
+[1.025575] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.104040] (-) TimerEvent: {}
+[1.204681] (-) TimerEvent: {}
+[1.305341] (-) TimerEvent: {}
+[1.366014] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.378750] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.400356] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.405412] (-) TimerEvent: {}
+[1.430828] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.470830] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.505548] (-) TimerEvent: {}
+[1.606082] (-) TimerEvent: {}
+[1.706710] (-) TimerEvent: {}
+[1.807371] (-) TimerEvent: {}
+[1.908012] (-) TimerEvent: {}
+[1.952515] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.959869] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.008169] (-) TimerEvent: {}
+[2.024538] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.108377] (-) TimerEvent: {}
+[2.114803] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.126602] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.153448] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.161639] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.178960] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.196205] (umrt-arm-ros-firmware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.208463] (-) TimerEvent: {}
+[2.219582] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.308676] (-) TimerEvent: {}
+[2.363557] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.364249] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.408849] (-) TimerEvent: {}
+[2.509542] (-) TimerEvent: {}
+[2.510791] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.513779] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.609926] (-) TimerEvent: {}
+[2.668343] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[2.710087] (-) TimerEvent: {}
+[2.718126] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (find_package):\n'}
+[2.718601] (umrt-arm-ros-firmware) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[2.718771] (umrt-arm-ros-firmware) StderrLine: {'line': b'  "ros2_j1939_babbler_msgs" with any of the following names:\n'}
+[2.718922] (umrt-arm-ros-firmware) StderrLine: {'line': b'\n'}
+[2.719085] (umrt-arm-ros-firmware) StderrLine: {'line': b'    ros2_j1939_babbler_msgsConfig.cmake\n'}
+[2.719240] (umrt-arm-ros-firmware) StderrLine: {'line': b'    ros2_j1939_babbler_msgs-config.cmake\n'}
+[2.719372] (umrt-arm-ros-firmware) StderrLine: {'line': b'\n'}
+[2.719497] (umrt-arm-ros-firmware) StderrLine: {'line': b'  Add the installation prefix of "ros2_j1939_babbler_msgs" to\n'}
+[2.719621] (umrt-arm-ros-firmware) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "ros2_j1939_babbler_msgs_DIR" to a directory\n'}
+[2.719747] (umrt-arm-ros-firmware) StderrLine: {'line': b'  containing one of the above files.  If "ros2_j1939_babbler_msgs" provides a\n'}
+[2.719871] (umrt-arm-ros-firmware) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[2.719992] (umrt-arm-ros-firmware) StderrLine: {'line': b'\n'}
+[2.720110] (umrt-arm-ros-firmware) StderrLine: {'line': b'\x1b[0m\n'}
+[2.720227] (umrt-arm-ros-firmware) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.720372] (umrt-arm-ros-firmware) StdoutLine: {'line': b'See also "/ros_ws/build/umrt-arm-ros-firmware/CMakeFiles/CMakeOutput.log".\n'}
+[2.740949] (umrt-arm-ros-firmware) CommandEnded: {'returncode': 1}
+[2.804836] (umrt-arm-ros-firmware) JobEnded: {'identifier': 'umrt-arm-ros-firmware', 'rc': 1}
+[2.810198] (-) TimerEvent: {}
+[2.816246] (-) EventReactorShutdown: {}
